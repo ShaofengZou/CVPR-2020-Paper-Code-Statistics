@@ -13,7 +13,7 @@ Crawl CVPR paper and code, make statistical visualization of topic and keyword
    
    > python download_cvpr_pdfs.py
    
-2. Crawl the github code url, stars, topics from [paperwithcode](```https://paperswithcode.com/```)
+2. Crawl the github code url, stars, topics from [paperswithcode](```https://paperswithcode.com/```)
 
    > cvpr_paper_code_statistics.ipynb
 
@@ -23,7 +23,7 @@ Crawl CVPR paper and code, make statistical visualization of topic and keyword
 
 ## Information
 
-In CVPR2020, we find 581 papers with available code through [paperwithcode](```https://paperswithcode.com/```). We analysis these papers and get following information.
+In CVPR2020, we find 581 papers with available code through [paperswithcode](```https://paperswithcode.com/```). We analysis these papers and get following information.
 
 ### Topics
 
@@ -51,7 +51,7 @@ Count topics of each paper with code
 
 ### Paper information 
 
-**Includes title, author, topics, github url, code stars, etc.**
+**Include title, author, topics, github url, code stars, etc.**
 
 |      | title                                                        | author             | task 1                | task 2              | task 3           | github                                                       | stars |
 | ---- | ------------------------------------------------------------ | ------------------ | --------------------- | ------------------- | ---------------- | ------------------------------------------------------------ | ----- |
@@ -96,13 +96,14 @@ Count topics of each paper with code
 
 ## TODO
 
-- [ ] Crawl citation rate for each papers.
+- [ ] Crawl citation rate for each paper.
 
 
 
 ## Reference
 
-1. https://github.com/priya-dwivedi/Deep-Learning/tree/master/cvpr2019
-2. https://github.com/guanfuchen/cvpr_review
-3. https://github.com/jonahthelion/cvpr_with_code
-4. https://github.com/hoya012/CVPR-2019-Paper-Statistics
+1. https://paperswithcode.com/
+2. https://github.com/priya-dwivedi/Deep-Learning/tree/master/cvpr2019
+3. https://github.com/guanfuchen/cvpr_review
+4. https://github.com/jonahthelion/cvpr_with_code
+5. https://github.com/hoya012/CVPR-2019-Paper-Statistics
