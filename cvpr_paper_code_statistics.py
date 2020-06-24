@@ -193,7 +193,7 @@ for i, v in enumerate(value):
 ax.set_xlabel('Frequency')
 ax.set_title('CVPR %s Submission Top %d Topics' % (year, num_keyowrd))
 
-plt.savefig('info/CVPR%s_topics.png' % year, bbox_inches='tight')
+plt.savefig('info/CVPR%s_topics.png' % year, bbox_inches='tight', pad_inches=0)
 plt.show()
 
 
@@ -206,7 +206,7 @@ wordcloud = WordCloud(max_font_size=64, max_words=160,
 plt.figure(figsize=(16, 8), dpi=144)
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-plt.savefig('info/CVPR%s_wordcloud.png' % year)
+plt.savefig('info/CVPR%s_wordcloud.png' % year, bbox_inches='tight', pad_inches=0)
 plt.show()
 
 # %% [markdown]

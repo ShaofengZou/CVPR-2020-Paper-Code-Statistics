@@ -43,11 +43,11 @@ Count topics of each paper with code
 | 1    | image-retrieval         | 16    |
 | 33   | super-resolution        | 14    |
 
-<img src="/home/shaofengzou/Desktop/shaofengzou/Others/CVPR-2020-Paper-Code-Statistics/README.assets/CVPR2020_topics-1592982706773.png" style="zoom:80%;" />
+<img src="info/CVPR2020_topics.png" style="zoom:80%;" />
 
 ### Wordcloud of topics
 
-![](/home/shaofengzou/Desktop/shaofengzou/Others/CVPR-2020-Paper-Code-Statistics/README.assets/CVPR2020_wordcloud.png)
+![](info/CVPR2020_wordcloud.png)
 
 ### Paper information 
 
