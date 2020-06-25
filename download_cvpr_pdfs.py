@@ -18,7 +18,7 @@ from urllib.request import urlretrieve
 import os
 os.makedirs('pdf', exist_ok=True)
  
-file = open('cache/CVPR2020.html', 'r')
+file = open(os.path.join('cache', 'CVPR2020.html'), 'r')
 html = file.read()
  
 while html.find('.pdf') != -1:

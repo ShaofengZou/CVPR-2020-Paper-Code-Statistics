@@ -1,4 +1,3 @@
-
 # %%
 import pandas as pd
 import requests
@@ -9,6 +8,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 from multiprocessing import Pool
 import tqdm
+import os
+import re
 
 year = '2020'
 os.makedirs('info', exist_ok=True)
@@ -86,13 +87,30 @@ def get_github(rowi):
  
     return rowi, {}
 
+def get_scholar(rowi):
+    row = info[rowi]   
+    
+    proxies = {"http": "http://127.0.0.1:{}/".format(proxy), "https": "http://127.0.0.1:{}/".format(proxy)}
+    url = 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={}'.format(row['title'].replace(' ', '+'))
+    content = requests.get(url, proxies=proxies).content.decode('latin-1')
+    search_reference_rates = re.findall('Cited by .*?</a>', content, re.MULTILINE)
+    reference_rates = []
+    for search_reference_rate in search_reference_rates:
+        if search_reference_rate:
+            search_reference_rate_id_start = 9
+            search_reference_rate_id_end = search_reference_rate.find('<')
+            reference_rate = search_reference_rate[search_reference_rate_id_start:search_reference_rate_id_end]
+            print('reference_rate:', reference_rate)
+            reference_rates.append(reference_rate)
+    return rowi, {'reference_rate': reference_rates}     
+
 # %% [markdown]
 # ## Step 1. Get paper information
 
 # %%
-paper_info_filename = 'cache/CVPR%s_paper_info.npy' % year
+paper_info_filename = os.path.join('cache', 'CVPR%s_paper_info.npy' % year)
 try:
-    info = np.load(paper_info_filename).tolist()
+    info = np.load(paper_info_filename, allow_pickle=True).tolist()
     print('Load paper information for CVPR %s successfully' % year)
 except:
     info = get_paper_info()
@@ -104,9 +122,9 @@ except:
 
 # %%
 print('Getting github info...')
-github_info_filename = 'cache/CVPR%s_github_info.npy' % year
+github_info_filename = os.path.join('cache', 'CVPR%s_github_info.npy' % year)
 try:
-    github_info = np.load(github_info_filename).tolist()
+    github_info = np.load(github_info_filename, allow_pickle=True).tolist()
     print('Load github information for CVPR %s successfully' % year)
 except:
     github_info = {}
@@ -139,7 +157,7 @@ df['score'] = df.apply(get_score, axis=1)
 df = df.sort_values(['score', 'github'], ascending=False)
 df = df[['title', 'author', 'task 1', 'task 2', 'task 3', 'github', 'stars']]
 df.index = range(1, len(df) + 1)
-outname = 'info/CVPR%s_info.csv' % year
+outname = os.path.join('info', 'CVPR%s_info.csv' % year)
 print('Saving to ', outname)
 df.to_csv(outname)
 
@@ -164,7 +182,7 @@ keyword_counter = Counter(topics_list)
 
 # %%
 topic_count = pd.DataFrame([(ele, keyword_counter[ele]) for ele in keyword_counter], columns=['topic', 'count']).sort_values(by=['count'], ascending=False)
-topic_count.to_csv('info/CVPR%s_topic_count.csv' % year)
+topic_count.to_csv(os.path.join('info', 'CVPR%s_topic_count.csv' % year))
 topic_count
 
 
@@ -193,7 +211,7 @@ for i, v in enumerate(value):
 ax.set_xlabel('Frequency')
 ax.set_title('CVPR %s Submission Top %d Topics' % (year, num_keyowrd))
 
-plt.savefig('info/CVPR%s_topics.png' % year, bbox_inches='tight', pad_inches=0)
+plt.savefig(os.path.join('info', '/CVPR%s_topics.png' % year), bbox_inches='tight', pad_inches=0)
 plt.show()
 
 
@@ -206,7 +224,7 @@ wordcloud = WordCloud(max_font_size=64, max_words=160,
 plt.figure(figsize=(16, 8), dpi=144)
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-plt.savefig('info/CVPR%s_wordcloud.png' % year, bbox_inches='tight', pad_inches=0)
+plt.savefig(os.path.join('info', 'CVPR%s_wordcloud.png' % year), bbox_inches='tight', pad_inches=0)
 plt.show()
 
 # %% [markdown]
@@ -231,8 +249,4 @@ def pull_papers(paper_infos, topic, search_range='all'):
 
 # %%
 pull_papers(df, 'denoising')
-
-
-# %%
-
 
