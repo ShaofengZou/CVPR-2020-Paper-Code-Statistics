@@ -1,0 +1,170 @@
+,title,author,task 1,task 2,task 3,github,stars
+0,VIBE: Video Inference for Human Body Pose and Shape Estimation,Muhammed Kocabas,3d-human-pose-estimation,3d-pose-estimation,motion-capture,https://github.com/mkocabas/VIBE,1230
+1,HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation,Bowen Cheng,multi-person-pose-estimation,pose-estimation,representation-learning,https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation,482
+2,HybridPose: 6D Object Pose Estimation Under Hybrid Representations,Chen Song,6d-pose-estimation,pose-estimation,,https://github.com/chensong1995/HybridPose,242
+3,PVN3D: A Deep Point-Wise 3D Keypoints Voting Network for 6DoF Pose Estimation,Yisheng He,6d-pose-estimation-1,keypoint-detection,pose-estimation,https://github.com/ethnhe/PVN3D,142
+4,Coherent Reconstruction of Multiple Humans From a Single Image,Wen Jiang,3d-pose-estimation,3d-reconstruction,instance-segmentation,https://github.com/JiangWenPL/multiperson,98
+5,End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization,Bo Chen,6d-pose-estimation-1,6d-pose-estimation,,https://github.com/BoChenYS/BPnP,90
+6,The Devil Is in the Details: Delving Into Unbiased Data Processing for Human Pose Estimation,Junjie Huang,pose-estimation,,,https://github.com/HuangJunJie2017/UDP-Pose,76
+7,Compressed Volumetric Heatmaps for Multi-Person 3D Pose Estimation,Matteo Fabbri,3d-human-pose-estimation,3d-pose-estimation,pose-estimation,https://github.com/fabbrimatteo/LoCO,62
+8,Generating 3D People in Scenes Without People,Yan Zhang,pose-estimation,,,https://github.com/yz-cnsdqz/PSI-release,48
+9,G2L-Net: Global to Local Network for Real-Time 6D Pose Estimation With Embedding Vector Features,Wei Chen,6d-pose-estimation-1,6d-pose-estimation,pose-estimation,https://github.com/DC1991/G2L_Net,44
+10,LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation,Keunhong Park,6d-pose-estimation-1,6d-pose-estimation,pose-estimation,https://github.com/NVlabs/latentfusion,42
+11,Dynamic Multiscale Graph Neural Networks for 3D Skeleton Based Human Motion Prediction,Maosen Li,3d-human-pose-estimation,3d-pose-estimation,human-motion-prediction,https://github.com/limaosen0/DMGNN,28
+12,ACNe: Attentive Context Normalization for Robust Permutation-Equivariant Learning,Weiwei Sun,pose-estimation,,,https://github.com/vcg-uvic/acne,27
+13,Category-Level Articulated Object Pose Estimation,Xiaolong Li,pose-estimation,,,https://github.com/dragonlong/articulated-pose,27
+14,Fusing Wearable IMUs With Multi-View Images for Human Pose Estimation: A Geometric Approach,Zhe Zhang,3d-absolute-human-pose-estimation,3d-human-pose-estimation,pose-estimation,https://github.com/CHUNYUWANG/imu-human-pose-pytorch,24
+15,Extreme Relative Pose Network Under Hybrid Representations,Zhenpei Yang,pose-estimation,,,https://github.com/SimingYan/Hybrid_Relative_Pose,20
+16,Single-Stage 6D Object Pose Estimation,Yinlin Hu,6d-pose-estimation,pose-estimation,pose-prediction,https://github.com/cvlab-epfl/single-stage-pose,14
+17,Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction,Ruixu Liu,3d-human-pose-estimation,pose-estimation,,https://github.com/lrxjason/Attention3DHumanPose,12
+18,Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task,Aritra Bhowmik,pose-estimation,,,https://github.com/aritra0593/Reinforced-Feature-Points,3
+19,Height and Uprightness Invariance for 3D Prediction From a Single View,Manel Baradad,pose-estimation,,,https://github.com/mbaradad/im2pcl,1
+20,Monocular Real-Time Hand Shape and Motion Capture Using Multi-Modal Data,Yuxiao Zhou,motion-capture,pose-estimation,,https://github.com/CalciferZh/minimal-hand,314
+21,Distribution-Aware Coordinate Representation for Human Pose Estimation,Feng Zhang,keypoint-detection,multi-person-pose-estimation,pose-estimation,https://github.com/ilovepose/DarkPose,184
+22,Dual Super-Resolution Learning for Semantic Segmentation,Li Wang,image-super-resolution,pose-estimation,semantic-segmentation,https://github.com/wanglixilinx/DSRL,25
+23,Dynamic Convolutions: Exploiting Spatial Sparsity for Faster Inference,Thomas Verelst,image-classification,pose-estimation,,https://github.com/thomasverelst/dynconv,22
+24,RGBD-Dog: Predicting Canine Pose from RGBD Sensors,Sinead Kearney,motion-capture,pose-estimation,pose-prediction,https://github.com/CAMERA-Bath/RGBD-Dog,14
+25,"Why Having 10,000 Parameters in Your Camera Model Is Better Than Twelve",Thomas Schops,calibration,depth-estimation,pose-estimation,https://github.com/puzzlepaint/camera_calibration,221
+26,Epipolar Transformers,Yihui He,calibration,edge-detection,pose-estimation,https://github.com/yihui-he/epipolar-transformers,152
+27,Towards Better Generalization: Joint Depth-Pose Learning Without PoseNet,Wang Zhao,depth-estimation,optical-flow-estimation,pose-estimation,https://github.com/B1ueber2y/TrianFlow,74
+28,Mixture Dense Regression for Object Detection and Human Pose Estimation,Ali Varamesh,dense-object-detection,object-detection,pose-estimation,https://github.com/alivaramesh/MixtureDenseRegression,7
+29,nuScenes: A Multimodal Dataset for Autonomous Driving,Holger Caesar,3d-object-detection,autonomous-driving,autonomous-vehicles,https://github.com/traveller59/second.pytorch,906
+30,Structure Aware Single-Stage 3D Object Detection From Point Cloud,Chenhang He,3d-object-detection,autonomous-driving,object-detection,https://github.com/skyhehe123/SA-SSD,216
+31,Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud,Weijing Shi,3d-object-detection,object-detection,,https://github.com/WeijingShi/Point-GNN,153
+32,PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection,Shaoshuai Shi,3d-object-detection,object-detection,,https://github.com/jhultman/PV-RCNN,151
+33,DSGN: Deep Stereo Geometry Network for 3D Object Detection,Yilun Chen,3d-object-detection,object-detection,,https://github.com/chenyilun95/DSGN,128
+34,Learning Depth-Guided Convolutions for Monocular 3D Object Detection,Mingyu Ding,3d-object-detection,monocular-3d-object-detection,object-detection,https://github.com/dingmyu/D4LCN,113
+35,Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation,Jiaming Sun,3d-object-detection,3d-object-detection-from-stereo-images,disparity-estimation,https://github.com/zju3dv/disprcnn,76
+36,MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps,Pengxiang Wu,3d-object-detection,autonomous-driving,motion-prediction,https://github.com/pxiangwu/MotionNet,58
+37,SESS: Self-Ensembling Semi-Supervised 3D Object Detection,Na Zhao,3d-object-detection,image-classification,object-detection,https://github.com/Na-Z/sess,30
+38,MLCVNet: Multi-Level Context VoteNet for 3D Object Detection,Qian Xie,3d-object-detection,object-detection,,https://github.com/NUAAXQ/MLCVNet,20
+39,IDA-3D: Instance-Depth-Aware 3D Object Detection From Stereo Vision for Autonomous Driving,Wanli Peng,3d-object-detection,autonomous-driving,depth-estimation,https://github.com/swords123/IDA-3D,12
+40,PointPainting: Sequential Fusion for 3D Object Detection,Sourabh Vora,3d-object-detection,object-detection,self-driving-cars,https://github.com/rshilliday/painting,1
+41,3D-MPA: Multi-Proposal Aggregation for 3D Semantic Instance Segmentation,Francis Engelmann,3d-instance-segmentation-1,3d-object-detection,3d-semantic-instance-segmentation,https://github.com/francisengelmann/3D-MPA,33
+42,BlendedMVS: A Large-Scale Dataset for Generalized Multi-View Stereo Networks,Yao Yao,3d-reconstruction,,,https://github.com/YoYo000/BlendedMVS,137
+43,BSP-Net: Generating Compact Meshes via Binary Space Partitioning,Zhiqin Chen,3d-reconstruction,3d-shape-representation,,https://github.com/czq142857/BSP-NET-original,73
+44,DeepDeform: Learning Non-Rigid RGB-D Reconstruction With Semi-Supervised Data,Aljaz Bozic,3d-reconstruction,,,https://github.com/AljazBozic/DeepDeform,64
+45,A Morphable Face Albedo Model,William A. P. Smith,3d-reconstruction,face-alignment,image-generation,https://github.com/waps101/AlbedoMM,46
+46,DeepFaceFlow: In-the-Wild Dense 3D Facial Motion Estimation,Mohammad Rami Koujan,3d-reconstruction,facial-expression-recognition,motion-capture,https://github.com/mrkoujan/DeepFaceFlow,42
+47,Learning Unsupervised Hierarchical Part Decomposition of 3D Objects From a Single RGB Image,Despoina Paschalidou,3d-reconstruction,,,https://github.com/paschalidoud/hierarchical_primitives,35
+48,A Neural Rendering Framework for Free-Viewpoint Relighting,Zhang Chen,3d-reconstruction,image-generation,,https://github.com/LansburyCH/relightable-nr,27
+49,Extremely Dense Point Correspondences Using a Learned Feature Descriptor,Xingtong Liu,3d-reconstruction,optical-flow-estimation,,https://github.com/lppllppl920/DenseDescriptorLearning-Pytorch,26
+50,PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes,Rundi Wu,3d-reconstruction,single-view-3d-reconstruction,,https://github.com/ChrisWu1997/PQ-NET,26
+51,Deep Stereo Using Adaptive Thin Volume Representation With Uncertainty Awareness,Shuo Cheng,3d-reconstruction,,,https://github.com/touristCheng/UCSNet,13
+52,Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion,Julian Chibane,3d-object-reconstruction,3d-reconstruction,3d-shape-reconstruction,https://github.com/jchibane/if-net,52
+53,3D Packing for Self-Supervised Monocular Depth Estimation,Vitor Guizilini,depth-estimation,monocular-depth-estimation,self-driving-cars,https://github.com/TRI-ML/DDAD,122
+54,Softmax Splatting for Video Frame Interpolation,Simon Niklaus,depth-estimation,optical-flow-estimation,video-frame-interpolation,https://github.com/sniklaus/softmax-splatting,121
+55,Self-Supervised Monocular Scene Flow Estimation,Junhwa Hur,depth-estimation,monocular-depth-estimation,optical-flow-estimation,https://github.com/visinf/self-mono-sf,76
+56,Fast-MVSNet: Sparse-to-Dense Multi-View Stereo With Learned Propagation and Gauss-Newton Refinement,Zehao Yu,depth-estimation,,,https://github.com/svip-lab/FastMVSNet,58
+57,Learning Video Object Segmentation From Unlabeled Videos,Xiankai Lu,depth-estimation,optical-flow-estimation,scene-flow-estimation,https://github.com/carrierlxk/MuG,51
+58,Structure-Guided Ranking Loss for Single Image Depth Prediction,Ke Xian,depth-estimation,,,https://github.com/KexianHust/Structure-Guided-Ranking-Loss,32
+59,Upgrading Optical Flow to 3D Scene Flow Through Optical Expansion,Gengshan Yang,depth-estimation,optical-flow-estimation,,https://github.com/gengshan-y/expansion,15
+60,DeFeat-Net: General Monocular Depth via Simultaneous Unsupervised Representation Learning,Jaime Spencer,depth-estimation,monocular-depth-estimation,representation-learning,https://github.com/jspenmar/DeFeat-Net,3
+61,Bi3D: Stereo Depth Estimation via Binary Classifications,Abhishek Badki,autonomous-navigation,depth-estimation,quantization,https://github.com/NVlabs/Bi3D,50
+62,How Useful Is Self-Supervised Pretraining for Visual Tasks?,Alejandro Newell,imitation-learning,monocular-depth-estimation,representation-learning,https://github.com/princeton-vl/selfstudy,30
+63,PaStaNet: Toward Human Activity Knowledge Engine,Yong-Lu Li,human-object-interaction-detection,transfer-learning,,https://github.com/DirtyHarryLYL/HAKE,79
+64,PPDM: Parallel Point Detection and Matching for Real-Time Human-Object Interaction Detection,Yue Liao,human-object-interaction-detection,object-detection,,https://github.com/YueLiao/PPDM,68
+65,Cascaded Human-Object Interaction Recognition,Tianfei Zhou,human-object-interaction-detection,,,https://github.com/tfzhou/C-HOI,58
+66,Detailed 2D-3D Joint Representation for Human-Object Interaction,Yong-Lu Li,human-object-interaction-detection,representation-learning,,https://github.com/DirtyHarryLYL/DJ-RN,50
+67,VSGNet: Spatial Attention Network for Detecting Human Object Interactions Using Graph Convolutions,Oytun Ulutan,human-object-interaction-detection,,,https://github.com/ASMIftekhar/VSGNet,44
+68,Discovering Human Interactions With Novel Objects via Zero-Shot Learning,Suchen Wang,human-object-interaction-detection,region-proposal,zero-shot-learning,https://github.com/scwangdyd/zero_shot_hoi,10
+69,Gate-Shift Networks for Video Action Recognition,Swathikiran Sudhakaran,action-recognition-in-videos,,,https://github.com/swathikirans/GSM,58
+70,MMTM: Multimodal Transfer Module for CNN Fusion,Hamid Reza Vaezi Joze,action-recognition-in-videos,gesture-recognition,hand-gesture-recognition,https://github.com/haamoon/mmtm,7
+71,TEA: Temporal Excitation and Aggregation for Action Recognition,Yan Li,action-recognition-in-videos,,,https://github.com/saijunhu/fancy-video-classification,2
+72,Searching for Actions on the Hyperbole,Teng Long,action-recognition-in-videos,video-retrieval,zero-shot-learning,https://github.com/Tenglon/hyperbolic_action,1
+73,A Multigrid Method for Efficiently Training Video Models,Chao-Yuan Wu,task-194,action-detection,action-recognition-in-videos,https://github.com/facebookresearch/SlowFast,2592
+74,Efficient Derivative Computation for Cumulative B-Splines on Lie Groups,Christiane Sommer,calibration,,,https://github.com/VladyslavUsenko/basalt-mirror,249
+75,Regularizing Class-Wise Predictions via Self-Knowledge Distillation,Sukmin Yun,calibration,image-classification,,https://github.com/alinlab/cs-kd,23
+76,Uncertainty Based Camera Model Selection,Michal Polic,autonomous-driving,calibration,,https://github.com/michalpolic/unc_model_selection,6
+77,Probabilistic Regression for Visual Tracking,Martin Danelljan,visual-tracking,,,https://github.com/visionml/pytracking,1080
+78,High-Performance Long-Term Tracking With Meta-Updater,Kenan Dai,visual-tracking,,,https://github.com/Daikenan/LTMU,62
+79,Siamese Box Adaptive Network for Visual Tracking,Zedu Chen,visual-tracking,,,https://github.com/hqucv/siamban,53
+80,AutoTrack: Towards High-Performance Visual Tracking for UAV With Automatic Spatio-Temporal Regularization,Yiming Li,visual-tracking,,,https://github.com/vision4robotics/AutoTrack,26
+81,Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking,Jin Gao,object-tracking,visual-object-tracking,visual-tracking,https://github.com/Amgao/RLS-RTMDNet,1
+82,G-TAD: Sub-Graph Localization for Temporal Action Detection,Mengmeng Xu,action-detection,action-recognition,temporal-action-proposal-generation,https://github.com/Frostinassiky/gtad,46
+83,Learning Human-Object Interaction Detection Using Interaction Points,Tiancai Wang,action-detection,action-localization,spatio-temporal-action-localization,https://github.com/vaesl/IP-Net,17
+84,A Context-Aware Loss Function for Action Spotting in Soccer Videos,Anthony Cioppa,action-classification,action-detection,action-spotting,https://github.com/cioppaanthony/context-aware-loss,8
+85,Learning Dynamic Relationships for 3D Human Motion Prediction,Qiongjie Cui,human-motion-prediction,motion-prediction,,https://github.com/cuiqiongjie/LDRGCN,10
+86,Learning a Neural Solver for Multiple Object Tracking,Guillem Braso,motion-compensation,motion-prediction,multi-object-tracking,https://github.com/dvl-tum/mot_neural_solver,70
+87,Collaborative Motion Prediction via Neural Motion Message Passing,Yue Hu,autonomous-vehicles,motion-prediction,,https://github.com/PhyllisH/NMMP,46
+88,3DV: 3D Dynamic Voxel for Action Recognition in Depth Video,Yancheng Wang,3d-human-action-recognition,,,https://github.com/3huo/3DV-Action,28
+89,Skeleton-Based Action Recognition With Shift Graph Convolutional Network,Ke Cheng,skeleton-based-action-recognition,,,https://github.com/kchengiva/Shift-GCN,15
+90,Semantics-Guided Neural Networks for Efficient Skeleton-Based Human Action Recognition,Pengfei Zhang,skeleton-based-action-recognition,action-recognition,,https://github.com/microsoft/SGN,14
+91,Weakly-Supervised Action Localization by Generative Attention Modeling,Baifeng Shi,action-localization,action-recognition,weakly-supervised-action-localization,https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization,68
+92,Momentum Contrast for Unsupervised Visual Representation Learning,Kaiming He,contrastive-learning,object-classification,self-supervised-action-recognition,https://github.com/facebookresearch/moco,1125
+93,OccuSeg: Occupancy-Aware 3D Instance Segmentation,Lei Han,3d-instance-segmentation-1,instance-segmentation,multi-task-learning,https://github.com/facebookresearch/SparseConvNet,1137
+94,PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation,Li Jiang,3d-instance-segmentation-1,instance-segmentation,scene-understanding,https://github.com/Jia-Research-Lab/PointGroup,94
+95,End-to-End Learning of Visual Representations From Uncurated Instructional Videos,Antoine Miech,action-localization,action-segmentation,video-retrieval,https://github.com/antoine77340/S3D_HowTo100M,43
+96,Deep Shutter Unrolling Network,Peidong Liu,motion-estimation,,,https://github.com/ethliup/DeepUnrollNet,3
+97,Dynamic Neural Relational Inference,Colin Graber,monocular-visual-odometry,motion-estimation,visual-odometry,https://github.com/cgraber/cvpr_dNRI,2
+98,FastDVDnet: Towards Real-Time Deep Video Denoising Without Flow Estimation,Matias Tassano,denoising,motion-compensation,motion-estimation,https://github.com/m-tassano/fastdvdnet,102
+99,Weakly-Supervised Salient Object Detection via Scribble Annotations,Jing Zhang,edge-detection,object-detection,salient-object-detection,https://github.com/JingZhang617/Scribble_Saliency,34
+100,Learning From Synthetic Animals,Jiteng Mu,edge-detection,object-detection,synthetic-data-generation,https://github.com/JitengMu/Learning-from-Synthetic-Animals,12
+101,Learning Multiview 3D Point Cloud Registration,Zan Gojcic,point-cloud-registration,,,https://github.com/chrischoy/FCGF,195
+102,SampleNet: Differentiable Point Cloud Sampling,Itai Lang,point-cloud-registration,,,https://github.com/orendv/learning_to_sample,100
+103,RPM-Net: Robust Point Matching Using Learned Features,Zi Jian Yew,point-cloud-registration,,,https://github.com/yewzijian/RPMNet,65
+104,"AvatarMe: Realistically Renderable 3D Facial Reconstruction ""In-the-Wild""",Alexandros Lattas,3d-face-reconstruction,face-generation,face-reconstruction,https://github.com/lattas/avatarme,271
+105,Lightweight Photometric Stereo for Facial Details Recovery,Xueying Wang,3d-face-reconstruction,data-augmentation,face-reconstruction,https://github.com/Juyong/FacePSNet,69
+106,Towards High-Fidelity 3D Face Reconstruction From In-the-Wild Images Using Graph Convolutional Networks,Jiangke Lin,3d-face-reconstruction,face-reconstruction,,https://github.com/FuxiCV/3D-Face-GCNs,43
+107,Fast Symmetric Diffeomorphic Image Registration with Convolutional Neural Networks,Tony C.W. Mok,image-registration,,,https://github.com/cwmok/Fast-Symmetric-Diffeomorphic-Image-Registration-with-Convolutional-Neural-Networks,2
+108,Deep Global Registration,Christopher Choy,brain-segmentation,image-registration,image-super-resolution,https://github.com/chrischoy/FCGF,195
+109,Unsupervised Multi-Modal Image Registration via Geometry Preserving Image-to-Image Translation,Moab Arar,autonomous-driving,image-registration,image-to-image-translation,https://github.com/moabarar/nemar,13
+110,Unbiased Scene Graph Generation From Biased Training,Kaihua Tang,graph-generation,scene-graph-generation,visual-question-answering,https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch,239
+111,GPS-Net: Graph Property Sensing Network for Scene Graph Generation,Xin Lin,graph-generation,scene-graph-generation,,https://github.com/taksau/GPS-Net,21
+112,Weakly Supervised Visual Semantic Parsing,Alireza Zareian,graph-generation,image-retrieval,scene-graph-generation,https://github.com/alirezazareian/vspnet,10
+113,AANet: Adaptive Aggregation Network for Efficient Stereo Matching,Haofei Xu,stereo-matching-1,,,https://github.com/haofeixu/aanet,98
+114,Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching,Xiaodong Gu,stereo-matching-1,,,https://github.com/alibaba/cascade-stereo,93
+115,Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching,Pengpeng Liu,optical-flow-estimation,self-supervised-learning,stereo-matching-1,https://github.com/ppliuboy/Flow2Stereo,20
+116,Graph Embedded Pose Clustering for Anomaly Detection,Amir Markovitz,anomaly-detection,,,https://github.com/amirmk89/gepc,10
+117,Old Is Gold: Redefining the Adversarially Learned One-Class Classifier Training Paradigm,Muhammad Zaigham Zaheer,anomaly-detection,one-class-classifier,,https://github.com/xaggi/OGNet,5
+118,Normalizing Flows With Multi-Scale Autoregressive Priors,Apratim Bhattacharyya,density-estimation,image-generation,,https://github.com/visinf/mar-scf,8
+119,HCNAF: Hyper-Conditioned Neural Autoregressive Flow and its Application for Probabilistic Occupancy Map Forecasting,Geunseob Oh,density-estimation,,,https://github.com/gsoh/HCNAF,8
+120,3D Photography Using Context-Aware Layered Depth Inpainting,Meng-Li Shih,novel-view-synthesis,,,https://github.com/vt-vl-lab/3d-photo-inpainting,3339
+121,Deep Image Spatial Transformation for Person Image Generation,Yurui Ren,novel-view-synthesis,,,https://github.com/RenYurui/Global-Flow-Local-Attention,222
+122,Unsupervised Deep Shape Descriptor With Point Distribution Learning,Yi Shi,3d-shape-retrieval,,,https://github.com/WordBearerYI/Unsupervised-Deep-Shape-Descriptor-with-Point-Distribution-Learning/blob/master/README.md,3
+123,View-GCN: View-Based Graph Convolutional Network for 3D Shape Analysis,Xin Wei,3d-shape-analysis,3d-shape-retrieval,3d-shape-recognition,https://github.com/weixmath/view-GCN,5
+124,Siam R-CNN: Visual Tracking by Re-Detection,Paul Voigtlaender,object-detection,object-tracking,visual-object-tracking,https://github.com/VisualComputingInstitute/SiamR-CNN,74
+125,PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization,Shunsuke Saito,3d-object-reconstruction-from-a-single-image,,,https://github.com/facebookresearch/pifuhd,2034
+126,From Image Collections to Point Clouds With Self-Supervised Shape and Pose Networks,K L Navaneet,3d-object-reconstruction,3d-object-reconstruction-from-a-single-image,object-reconstruction,https://github.com/val-iisc/ssl_3d_recon,14
+127,VOLDOR: Visual Odometry From Log-Logistic Dense Optical Flow Residuals,Zhixiang Min,optical-flow-estimation,visual-odometry,,https://github.com/htkseason/VOLDOR,14
+128,An Efficient PointLSTM for Point Clouds Based Gesture Recognition,Yuecong Min,gesture-recognition,,,https://github.com/Blueprintf/pointlstm-gesture-recognition-pytorch,6
+129,Differentiable Adaptive Computation Time for Visual Reasoning,Cristobal Eyzaguirre,visual-reasoning,,,https://github.com/ceyzaguirre4/DACT-MAC,6
+130,Attention-Based Context Aware Reasoning for Situation Recognition,Thilini Cooray,question-answering,visual-question-answering,visual-reasoning,https://github.com/thilinicooray/context-aware-reasoning-for-sr,1
+131,FPConv: Learning Local Flattening for Point Convolution,Yiqun Lin,3d-object-classification,object-classification,scene-segmentation,https://github.com/lyqun/FPConv,66
+132,Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds,Yongming Rao,3d-object-classification,object-classification,representation-learning,https://github.com/raoyongming/PointGLR,48
+133,"Correlating Edge, Pose With Parsing",Ziwei Zhang,human-parsing,,,https://github.com/ziwei-zh/CorrPM,61
+134,Hierarchical Human Parsing With Typed Part-Relation Reasoning,Wenguan Wang,human-parsing,,,https://github.com/hlzhu09/Hierarchical-Human-Parsing,30
+135,CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement,Ho Kei Cheng,scene-parsing,semantic-segmentation,,https://github.com/hkchengrex/CascadePSP,188
+136,Strip Pooling: Rethinking Spatial Pooling for Scene Parsing,Qibin Hou,scene-parsing,,,https://github.com/Andrew-Qibin/SPNet,140
+137,CoverNet: Multimodal Behavior Prediction Using Trajectory Sets,Tung Phan-Minh,trajectory-prediction,,,https://github.com/nutonomy/nuscenes-devkit,640
+138,Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction,Abduallah Mohamed,autonomous-vehicles,trajectory-prediction,,https://github.com/abduallahmohamed/Social-STGCNN,111
+139,Action Segmentation With Joint Self-Supervised Temporal Domain Adaptation,Min-Hung Chen,action-segmentation,domain-adaptation,,https://github.com/cmhungsteve/SSTDA,73
+140,Unsupervised Model Personalization While Preserving Privacy and Scalability: An Open Problem,Matthias De Lange,continual-learning,domain-adaptation,scene-recognition,https://github.com/mattdl/DUA,6
+141,Fine-Grained Video-Text Retrieval With Hierarchical Graph Reasoning,Shizhe Chen,cross-modal-retrieval,image-retrieval,structured-prediction,https://github.com/cshizhe/hgr_v2t,42
+142,Attentive Normalization for Conditional Image Generation,Yi Wang,gaze-estimation,image-to-image-translation,semantic-similarity,https://github.com/shepnerd/AttenNorm,15
+143,SGAS: Sequential Greedy Architecture Search,Guohao Li,image-classification,architecture-search,node-classification,https://github.com/lightaime/sgas,94
+144,SuperGlue: Learning Feature Matching With Graph Neural Networks,Paul-Edouard Sarlin,domain-adaptation,homography-estimation,interest-point-detection,https://github.com/magicleap/SuperGluePretrainedNetwork,506
+145,Neural Pose Transfer by Spatially Adaptive Instance Normalization,Jiashun Wang,pose-transfer,style-transfer,,https://github.com/jiashunwang/Neural-Pose-Transfer,73
+146,Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation,Hao Tang,bird-view-synthesis,cross-view-image-to-image-translation,image-to-image-translation,https://github.com/Ha0Tang/LGGAN,34
+147,Uncertainty-Aware CNNs for Depth Completion: Uncertainty from Beginning to End,Abdelrahman Eldesokey,depth-completion,,,https://github.com/abdo-eldesokey/pncnn,29
+148,GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking With 2D-3D Multi-Feature Learning,Xinshuo Weng,3d-multi-object-tracking,multi-object-tracking,object-tracking,https://github.com/xinshuoweng/GNN3DMOT,22
+149,KFNet: Learning Temporal Camera Relocalization Using Kalman Filtering,Lei Zhou,camera-relocalization,,,https://github.com/zlthinker/KFNet,80
+150,X-Linear Attention Networks for Image Captioning,Yingwei Pan,fine-grained-visual-recognition,image-captioning,question-answering,https://github.com/Panda-Peter/image-captioning,84
+151,F-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation,Konstantin Sofiiuk,interactive-segmentation,,,https://github.com/saic-vul/fbrs_interactive_segmentation,234
+152,Learning to Cluster Faces via Confidence and Connectivity Estimation,Lei Yang,connectivity-estimation,face-clustering,,https://github.com/yl-1993/learn-to-cluster,349
+153,Holistically-Attracted Wireframe Parsing,Nan Xue,line-segment-detection,,,https://github.com/cherubicXN/hawp,17
+154,Norm-Aware Embedding for Efficient Person Search,Di Chen,human-detection,person-re-identification,person-search,https://github.com/DeanChan/NAE4PS,16
+155,A U-Net Based Discriminator for Generative Adversarial Networks,Edgar Schonfeld,compressive-sensing,semantic-segmentation,,https://github.com/xingchenzhao/deep-learning-team-project,2
+156,Barycenters of Natural Images  Constrained Wasserstein Barycenters for Image Morphing,Dror Simon,image-morphing,,,https://github.com/drorsimon/image_barycenters,2
+157,Learning to Manipulate Individual Objects in an Image,Yanchao Yang,image-manipulation-detection,object-detection,,https://github.com/ChenYutongTHU/Learning-to-manipulate-individual-objects-in-an-image-Implementation,3
+158,Generalizing Hand Segmentation in Egocentric Videos With Uncertainty-Guided Model Adaptation,Minjie Cai,hand-segmentation,,,https://github.com/cai-mj/UMA,4
+159,Toward a Universal Model for Shape From Texture,Dor Verbin,shape-from-texture,texture-synthesis,,https://github.com/dorverbin/shapefromtexture,3
+160,CONSAC: Robust Multi-Model Fitting by Conditional Sample Consensus,Florian Kluger,homography-estimation,self-supervised-learning,,https://github.com/fkluger/consac,31
+161,Deep Homography Estimation for Dynamic Scenes,Hoang Le,homography-estimation,multi-task-learning,,https://github.com/lcmhoang/hmg-dynamics,15
+162,Deep Relational Reasoning Graph Network for Arbitrary Shape Text Detection,Shi-Xue Zhang,graph-construction,relational-reasoning,,https://github.com/GXYM/DRRG,93
+163,Auto-Encoding Twin-Bottleneck Hashing,Yuming Shen,graph-construction,,,https://github.com/ymcidence/TBH,38
+164,Rotation Equivariant Graph Convolutional Network for Spherical Image Classification,Qin Yang,graph-construction,image-classification,,https://github.com/QinYang12/SGCN,5
+165,Pose-Guided Visible Part Matching for Occluded Person ReID,Shang Gao,graph-matching,person-re-identification,,https://github.com/hh23333/PVPM,39
+166,High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification,Guan'an Wang,graph-matching,person-re-identification,,https://github.com/wangguanan/HOReID,37
+167,Zero-Assignment Constraint for Graph Matching With Outliers,Fudong Wang,graph-matching,,,https://github.com/wangfudong/ZAC_GM,1
+168,Iterative Context-Aware Graph Inference for Visual Dialog,Dan Guo,graph-embedding,visual-dialogue,,https://github.com/wh0330/CAG_VisDial,5

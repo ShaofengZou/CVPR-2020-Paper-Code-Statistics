@@ -1,15 +1,14 @@
 # %%
-import pandas as pd
-import requests
-from tqdm import tqdm
-from bs4 import BeautifulSoup
-from unidecode import unidecode
-from sklearn.feature_extraction.text import TfidfVectorizer
-import numpy as np
-from multiprocessing import Pool
-import tqdm
 import os
 import re
+import tqdm
+import requests
+import numpy as np
+import pandas as pd
+from bs4 import BeautifulSoup
+from unidecode import unidecode
+from multiprocessing import Pool
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 year = '2020'
 os.makedirs('info', exist_ok=True)
@@ -211,7 +210,7 @@ for i, v in enumerate(value):
 ax.set_xlabel('Frequency')
 ax.set_title('CVPR %s Submission Top %d Topics' % (year, num_keyowrd))
 
-plt.savefig(os.path.join('info', '/CVPR%s_topics.png' % year), bbox_inches='tight', pad_inches=0)
+plt.savefig(os.path.join('info', 'CVPR%s_topics.png' % year), bbox_inches='tight', pad_inches=0)
 plt.show()
 
 
@@ -231,13 +230,17 @@ plt.show()
 # ## Search papers according to keyword and topic
 
 # %%
-def pull_papers(paper_infos, topic, search_range='all'):
-    target_title = paper_infos[paper_infos['title'].str.contains(topic.capitalize())]
+def pull_papers(paper_infos, topics, search_range='all'):
+    target_title = pd.DataFrame()
+    for topic in topics:
+        tmp = paper_infos[paper_infos['title'].str.contains(topic.capitalize())]
+        target_title = pd.concat([target_title, tmp]).drop_duplicates()
 
     target_topic = pd.DataFrame()
-    for i in range(3):
-        tmp = paper_infos[paper_infos['task %d' % (i+1)].str.contains(topic)]
-        target_topic = pd.concat([target_topic, tmp]).drop_duplicates()
+    for topic in topics:
+        for i in range(3):
+            tmp = paper_infos[paper_infos['task %d' % (i+1)].str.contains(topic)]
+            target_topic = pd.concat([target_topic, tmp]).drop_duplicates()
 
     if search_range == 'title':
         return target_title
@@ -248,5 +251,92 @@ def pull_papers(paper_infos, topic, search_range='all'):
 
 
 # %%
-pull_papers(df, 'denoising')
+pull_papers(df, ['denoising'])
+
+# %% [markdown]
+# ## Classify topic
+
+# %%
+topic_class = pd.read_excel('topic_class.xlsx')
+
+
+# %%
+topic_class
+
+
+# %%
+def count_class_topic(topic_class, target_class):
+    target_keyword = []
+    topics = list(topic_class[target_class])
+    clean_topics = [x for x in topics if str(x)!='nan']
+    num_keyowrd = len(clean_topics)
+    print('num_keyowrd of %s is:%d' % (target_class, num_keyowrd))
+    for x in clean_topics:
+        target_keyword.extend([x]*keyword_counter[x])
+
+    target_keyword_counter = Counter(target_keyword)
+
+    # Show N most common keywords and their frequencies
+    keywords_counter_vis = target_keyword_counter.most_common(num_keyowrd)
+
+    plt.rcdefaults()
+    fig, ax = plt.subplots(figsize=(8, num_keyowrd//5), dpi=144)
+
+    key = [k[0] for k in keywords_counter_vis] 
+    value = [k[1] for k in keywords_counter_vis] 
+    y_pos = np.arange(len(key))
+    ax.barh(y_pos, value, align='center', color='green', ecolor='black', log=True)
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(key, rotation=0, fontsize=10)
+    ax.invert_yaxis() 
+    for i, v in enumerate(value):
+        ax.text(v + 3, i + .25, str(v), color='black', fontsize=10)
+
+    ax.set_xlabel('Frequency')
+    ax.set_title('Topic of class %s' % (target_class))
+
+    plt.savefig(os.path.join('info', 'Topic of class %s.png') % (target_class.upper()), bbox_inches='tight', pad_inches=0)
+    plt.close()
+
+
+# %%
+count_class_topic(topic_class, 'a')
+count_class_topic(topic_class, 'b')
+count_class_topic(topic_class, 'c')
+count_class_topic(topic_class, 'd')
+
+
+# %%
+def get_and_save(target_class):
+    topics = list(topic_class[target_class])
+    clean_topics = [x for x in topics if str(x)!='nan']
+    clean_infos = pull_papers(df, clean_topics, 'topic').reset_index(drop=True)
+    print('%s have %d papers' % (target_class, len(clean_infos)))
+    save_path = os.path.join('info', '%s.csv' % target_class.upper())
+    clean_infos.to_csv(save_path)
+    return clean_infos
+
+
+# %%
+get_and_save('a')
+
+
+# %%
+get_and_save('b')
+
+
+# %%
+get_and_save('c')
+
+
+# %%
+get_and_save('d')
+
+
+# %%
+
+
+
+# %%
+
 

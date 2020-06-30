@@ -70,7 +70,7 @@ Count topics of each paper with code
 
 **Input:**
 
-> pull_papers(df, 'denoising')
+> pull_papers(df, ['denoising'])
 
 **Output:**
 

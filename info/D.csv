@@ -1,0 +1,88 @@
+,title,author,task 1,task 2,task 3,github,stars
+0,Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs,Soheil Kolouri,traffic-sign-recognition,,,https://github.com/UMBCvision/Universal-Litmus-Patterns,6
+1,Noise Robust Generative Adversarial Networks,Takuhiro Kaneko,robust-speech-recognition,speech-dereverberation,speech-enhancement,https://github.com/takuhirok/NR-GAN,4
+2,Learning to Cluster Faces via Confidence and Connectivity Estimation,Lei Yang,connectivity-estimation,face-clustering,,https://github.com/yl-1993/learn-to-cluster,349
+3,Towards Accurate Scene Text Recognition With Semantic Reasoning Networks,Deli Yu,scene-text,scene-text-recognition,,https://github.com/PaddlePaddle/PaddleOCR,618
+4,Learning Individual Speaking Styles for Accurate Lip to Speech Synthesis,K R Prajwal,lip-reading,lip-to-speech-synthesis,speaker-specific-lip-to-speech-synthesis,https://github.com/Rudrabha/Lip2Wav,175
+5,Proxy Anchor Loss for Deep Metric Learning,Sungyeon Kim,fine-grained-image-classification,fine-grained-vehicle-classification,metric-learning,https://github.com/tjddus9597/Proxy-Anchor-CVPR2020,75
+6,Adversarial Latent Autoencoders,Stanislav Pidhorskyi,latent-variable-models,representation-learning,style-transfer,https://github.com/podgorskiy/ALAE,2161
+7,PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models,Sachit Menon,face-hallucination,image-super-resolution,super-resolution,https://github.com/adamian98/pulse,2201
+8,Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,Chunle Guo,face-detection,image-enhancement,low-light-image-enhancement,https://github.com/Li-Chongyi/Zero-DCE,49
+9,Learning Human-Object Interaction Detection Using Interaction Points,Tiancai Wang,action-detection,action-localization,spatio-temporal-action-localization,https://github.com/vaesl/IP-Net,17
+10,Sketch Less for More: On-the-Fly Fine-Grained Sketch-Based Image Retrieval,Ayan Kumar Bhunia,cross-modal-retrieval,image-retrieval,sketch-based-image-retrieval,https://github.com/AyanKumarBhunia/on-the-fly-FGSBIR,9
+11,Sketchformer: Transformer-Based Representation for Sketched Structure,Leo Sampaio Ferraz Ribeiro,dictionary-learning,image-retrieval,sketch-based-image-retrieval,https://github.com/leosampaio/sketchformer,3
+12,Instance-Aware Image Colorization,Jheng-Wei Su,colorization,,,https://github.com/ericsujw/InstColorization,237
+13,ColorFool: Semantic Adversarial Colorization,Ali Shahin Shamsabadi,adversarial-attack,colorization,denoising,https://github.com/smartcameras/ColorFool,4
+14,Fine-Grained Video-Text Retrieval With Hierarchical Graph Reasoning,Shizhe Chen,cross-modal-retrieval,image-retrieval,structured-prediction,https://github.com/cshizhe/hgr_v2t,42
+15,Interpreting the Latent Space of GANs for Semantic Face Editing,Yujun Shen,face-generation,image-generation,,https://github.com/ShenYujun/InterFaceGAN,518
+16,"AvatarMe: Realistically Renderable 3D Facial Reconstruction ""In-the-Wild""",Alexandros Lattas,3d-face-reconstruction,face-generation,face-reconstruction,https://github.com/lattas/avatarme,271
+17,Suppressing Uncertainties for Large-Scale Facial Expression Recognition,Kai Wang,facial-expression-recognition,,,https://github.com/kaiwang960112/Self-Cure-Network,101
+18,DeepFaceFlow: In-the-Wild Dense 3D Facial Motion Estimation,Mohammad Rami Koujan,3d-reconstruction,facial-expression-recognition,motion-capture,https://github.com/mrkoujan/DeepFaceFlow,42
+19,Transform and Tell: Entity-Aware News Image Captioning,Alasdair Tran,image-captioning,language-modelling,,https://github.com/alasdairtran/transform-and-tell,24
+20,Sign Language Transformers: Joint End-to-End Sign Language Recognition and Translation,Necati Cihan Camgoz,machine-translation,sign-language-recognition,sign-language-translation,https://github.com/neccam/slt,21
+21,Hierarchical Conditional Relation Networks for Video Question Answering,Thao Minh Le,question-answering,video-question-answering,visual-question-answering,https://github.com/thaolmk54/hcrn-videoqa,34
+22,A Morphable Face Albedo Model,William A. P. Smith,3d-reconstruction,face-alignment,image-generation,https://github.com/waps101/AlbedoMM,46
+23,Meshed-Memory Transformer for Image Captioning,Marcella Cornia,image-captioning,machine-translation,text-generation,https://github.com/aimagelab/meshed-memory-transformer,111
+24,EfficientDet: Scalable and Efficient Object Detection,Mingxing Tan,object-detection,object-detection-in-aerial-images,pedestrian-detection,https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch,3441
+25,ABCNet: Real-Time Scene Text Spotting With Adaptive Bezier-Curve Network,Yuliang Liu,scene-text,scene-text-detection,text-spotting,https://github.com/aim-uofa/AdelaiDet,896
+26,STEFANN: Scene Text Editor Using Font Adaptive Neural Network,Prasun Roy,scene-text,scene-text-editing,,https://github.com/prasunroy/stefann,67
+27,UnrealText: Synthesizing Realistic Scene Text Images From the Unreal World,Shangbang Long,image-generation,scene-text,scene-text-detection,https://github.com/Jyouhou/UnrealText,103
+28,ContourNet: Taking a Further Step Toward Accurate Arbitrary-Shaped Scene Text Detection,Yuxin Wang,region-proposal,scene-text,scene-text-detection,https://github.com/wangyuxin87/ContourNet,75
+29,Orthogonal Convolutional Neural Networks,Jiayun Wang,speech-recognition,person-re-identification,,https://github.com/samaonline/Orthogonal-Convolutional-Neural-Networks,21
+30,Discriminative Multi-Modality Speech Recognition,Bo Xu,lipreading,speech-recognition,,https://github.com/JackSyu/Discriminative-Multi-modality-Speech-Recognition,5
+31,Visual Chirality,Zhiqiu Lin,data-augmentation,image-forensics,self-supervised-learning,https://github.com/linzhiqiu/digital_chirality,4
+32,An Adaptive Neural Network for Unsupervised Mosaic Consistency Analysis in Image Forensics,Quentin Bammey,demosaicking,image-forensics,,https://github.com/qbammey/adaptive_cfa_forensics,0
+33,Task Agnostic Robust Learning on Corrupt Outputs by Correlation-Guided Mixture Density Networks,Sungjoon Choi,autonomous-driving,,,https://github.com/sjchoi86/choicenet,123
+34,Unsupervised Multi-Modal Image Registration via Geometry Preserving Image-to-Image Translation,Moab Arar,autonomous-driving,image-registration,image-to-image-translation,https://github.com/moabarar/nemar,13
+35,3D Part Guided Image Editing for Fine-Grained Object Understanding,Zongdai Liu,autonomous-driving,instance-segmentation,semantic-segmentation,https://github.com/zongdai/EditingForDNN,12
+36,Scalability in Perception for Autonomous Driving: Waymo Open Dataset,Pei Sun,autonomous-driving,,,https://github.com/JdeRobot/BehaviorSuite,10
+37,Uncertainty Based Camera Model Selection,Michal Polic,autonomous-driving,calibration,,https://github.com/michalpolic/unc_model_selection,6
+38,nuScenes: A Multimodal Dataset for Autonomous Driving,Holger Caesar,3d-object-detection,autonomous-driving,autonomous-vehicles,https://github.com/traveller59/second.pytorch,906
+39,Structure Aware Single-Stage 3D Object Detection From Point Cloud,Chenhang He,3d-object-detection,autonomous-driving,object-detection,https://github.com/skyhehe123/SA-SSD,216
+40,PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation,Yang Zhang,3d-semantic-segmentation,autonomous-driving,semantic-segmentation,https://github.com/edwardzhou130/PolarSeg,86
+41,MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps,Pengxiang Wu,3d-object-detection,autonomous-driving,motion-prediction,https://github.com/pxiangwu/MotionNet,58
+42,xMUDA: Cross-Modal Unsupervised Domain Adaptation for 3D Semantic Segmentation,Maximilian Jaritz,3d-semantic-segmentation,autonomous-driving,domain-adaptation,https://github.com/valeoai/xmuda,23
+43,IDA-3D: Instance-Depth-Aware 3D Object Detection From Stereo Vision for Autonomous Driving,Wanli Peng,3d-object-detection,autonomous-driving,depth-estimation,https://github.com/swords123/IDA-3D,12
+44,ZeroQ: A Novel Zero Shot Quantization Framework,Yaohui Cai,quantization,,,https://github.com/amirgholami/ZeroQ,69
+45,Central Similarity Quantization for Efficient Image and Video Retrieval,Li Yuan,quantization,video-retrieval,,https://github.com/yuanli2333/Hadamard-Matrix-for-hashing,66
+46,Forward and Backward Information Retention for Accurate Binary Neural Networks,Haotong Qin,neural-network-compression,quantization,,https://github.com/JDAI-CV/dabnn,623
+47,Learning to Structure an Image With Few Colors,Yunzhong Hou,image-compression,quantization,,https://github.com/hou-yz/color_distillation,16
+48,Probability Weighted Compact Feature for Domain Adaptive Retrieval,Fuxiang Huang,image-retrieval,quantization,,https://github.com/fuxianghuang1/PWCF,6
+49,Unsupervised Person Re-Identification via Softened Similarity Learning,Yutian Lin,person-re-identification,quantization,unsupervised-person-re-identification,https://github.com/ryanaleksander/softened-similarity-learning,4
+50,Bi3D: Stereo Depth Estimation via Binary Classifications,Abhishek Badki,autonomous-navigation,depth-estimation,quantization,https://github.com/NVlabs/Bi3D,50
+51,Generalized Product Quantization Network for Semi-Supervised Image Retrieval,Young Kyun Jang,image-retrieval,metric-learning,quantization,https://github.com/youngkyunJang/GPQ,7
+52,Circle Loss: A Unified Perspective of Pair Similarity Optimization,Yifan Sun,face-recognition,image-retrieval,person-re-identification,https://github.com/TinyZeaMays/CircleLoss,201
+53,CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition,Yuge Huang,face-recognition,,,https://github.com/HuangYG123/CurricularFace,162
+54,ASLFeat: Learning Local Features of Accurate Shape and Localization,Zixin Luo,face-recognition,image-retrieval,person-re-identification,https://github.com/lzx551402/ASLFeat,83
+55,D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features,Xuyang Bai,face-recognition,image-retrieval,person-re-identification,https://github.com/XuyangBai/D3Feat,78
+56,Weakly Supervised Discriminative Feature Learning With State Information for Person Identification,Hong-Xing Yu,face-recognition,person-identification,person-re-identification,https://github.com/KovenYu/state-information,36
+57,Searching Central Difference Convolutional Networks for Face Anti-Spoofing,Zitong Yu,face-anti-spoofing,face-recognition,architecture-search,https://github.com/ZitongYu/CDCN,171
+58,Deep Spatial Gradient and Temporal Depth Learning for Face Anti-Spoofing,Zezheng Wang,face-anti-spoofing,face-recognition,,https://github.com/clks-wzz/FAS-SGTD,88
+59,Learning Meta Face Recognition in Unseen Domains,Jianzhu Guo,domain-generalization,face-anti-spoofing,face-recognition,https://github.com/cleardusk/MFR,79
+60,"On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering",Xinyu Wang,question-answering,scene-text,visual-question-answering,https://github.com/xinke-wang/Awesome-Text-VQA,46
+61,Counterfactual Samples Synthesizing for Robust Visual Question Answering,Long Chen,question-answering,visual-question-answering,,https://github.com/yanxinzju/CSS-VQA,20
+62,Multi-Modal Graph Neural Network for Joint Reasoning on Vision and Scene Text,Difei Gao,question-answering,scene-text,visual-question-answering,https://github.com/ricolike/mmgnn_textvqa,7
+63,Attention-Based Context Aware Reasoning for Situation Recognition,Thilini Cooray,question-answering,visual-question-answering,visual-reasoning,https://github.com/thilinicooray/context-aware-reasoning-for-sr,1
+64,12-in-1: Multi-Task Vision and Language Representation Learning,Jiasen Lu,image-retrieval,question-answering,representation-learning,https://github.com/jiasenlu/vilbert_beta,282
+65,In Defense of Grid Features for Visual Question Answering,Huaizu Jiang,image-captioning,question-answering,visual-question-answering,https://github.com/facebookresearch/grid-feats-vqa,59
+66,Unbiased Scene Graph Generation From Biased Training,Kaihua Tang,graph-generation,scene-graph-generation,visual-question-answering,https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch,239
+67,X-Linear Attention Networks for Image Captioning,Yingwei Pan,fine-grained-visual-recognition,image-captioning,question-answering,https://github.com/Panda-Peter/image-captioning,84
+68,Learn to Augment: Joint Data Augmentation and Network Optimization for Text Recognition,Canjie Luo,data-augmentation,image-augmentation,scene-text,https://github.com/Canjie-Luo/Scene-Text-Image-Transformer,240
+69,Single-Side Domain Generalization for Face Anti-Spoofing,Yunpei Jia,domain-generalization,face-anti-spoofing,,https://github.com/taylover-pei/SSDG-CVPR2020,35
+70,DeeperForensics-1.0: A Large-Scale Dataset for Real-World Face Forgery Detection,Liming Jiang,face-swapping,,,https://github.com/EndlessSora/DeeperForensics-1.0,222
+71,Celeb-DF: A Large-Scale Challenging Dataset for DeepFake Forensics,Yuezun Li,deepfake-detection,face-swapping,,https://github.com/danmohaha/celeb-deepfakeforensics,96
+72,Face X-Ray for More General Face Forgery Detection,Lingzhi Li,deepfake-detection,face-swapping,,https://github.com/neverUseThisName/Face-X-Ray,15
+73,Lightweight Photometric Stereo for Facial Details Recovery,Xueying Wang,3d-face-reconstruction,data-augmentation,face-reconstruction,https://github.com/Juyong/FacePSNet,69
+74,Towards High-Fidelity 3D Face Reconstruction From In-the-Wild Images Using Graph Convolutional Networks,Jiangke Lin,3d-face-reconstruction,face-reconstruction,,https://github.com/FuxiCV/3D-Face-GCNs,43
+75,Satellite Image Time Series Classification With Pixel-Set Encoders and Temporal Self-Attention,Vivien Sainte Fare Garnot,time-series,time-series-classification,,https://github.com/VSainteuf/psetae,21
+76,Learning in the Frequency Domain,Kai Xu,multiple-instance-learning,time-series,time-series-classification,https://github.com/calmevtime1990/supp,144
+77,Graph Structured Network for Image-Text Matching,Chunxiao Liu,text-matching,,,https://github.com/CrossmodalGroup/GSMN,18
+78,More Grounded Image Captioning by Distilling Image-Text Matching Model,Yuanen Zhou,image-captioning,text-matching,,https://github.com/YuanEZhou/Grounded-Image-Captioning,24
+79,3D Packing for Self-Supervised Monocular Depth Estimation,Vitor Guizilini,depth-estimation,monocular-depth-estimation,self-driving-cars,https://github.com/TRI-ML/DDAD,122
+80,PointPainting: Sequential Fusion for 3D Object Detection,Sourabh Vora,3d-object-detection,object-detection,self-driving-cars,https://github.com/rshilliday/painting,1
+81,Learning to Transfer Texture From Clothing Images to 3D Humans,Aymen Mir,image-to-image-translation,virtual-try-on,,https://github.com/aymenmir1/pix2surf,53
+82,Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-Training,Weituo Hao,self-supervised-learning,visual-navigation,,https://github.com/weituo12321/PREVALENT,35
+83,PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation,Li Jiang,3d-instance-segmentation-1,instance-segmentation,scene-understanding,https://github.com/Jia-Research-Lab/PointGroup,94
+84,Computing the Testing Error Without a Testing Set,Ciprian A. Corneanu,causal-discovery,model-selection,,https://github.com/cipriancorneanu/dnn-topology,23
+85,Two Causal Principles for Improving Visual Dialog,Jiaxin Qi,visual-dialogue,,,https://github.com/simpleshinobu/visdial-principles,7
+86,Iterative Context-Aware Graph Inference for Visual Dialog,Dan Guo,graph-embedding,visual-dialogue,,https://github.com/wh0330/CAG_VisDial,5

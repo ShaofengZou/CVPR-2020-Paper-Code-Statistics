@@ -1,0 +1,204 @@
+,title,author,task 1,task 2,task 3,github,stars
+0,Google Landmarks Dataset v2 - A Large-Scale Benchmark for Instance-Level Recognition and Retrieval,Tobias Weyand,image-retrieval,transfer-learning,,https://github.com/tensorflow/models/tree/master/research/delf,64576
+1,12-in-1: Multi-Task Vision and Language Representation Learning,Jiasen Lu,image-retrieval,question-answering,representation-learning,https://github.com/jiasenlu/vilbert_beta,282
+2,Cross-Batch Memory for Embedding Learning,Xun Wang,image-retrieval,metric-learning,,https://github.com/MalongTech/research-xbm,38
+3,Embedding Expansion: Augmentation in Embedding Space for Deep Metric Learning,Byungsoo Ko,image-retrieval,metric-learning,,https://github.com/clovaai/embedding-expansion,30
+4,Generalized Product Quantization Network for Semi-Supervised Image Retrieval,Young Kyun Jang,image-retrieval,metric-learning,quantization,https://github.com/youngkyunJang/GPQ,7
+5,Probability Weighted Compact Feature for Domain Adaptive Retrieval,Fuxiang Huang,image-retrieval,quantization,,https://github.com/fuxianghuang1/PWCF,6
+6,"Same Features, Different Day: Weakly Supervised Feature Learning for Seasonal Invariance",Jaime Spencer,image-retrieval,,,https://github.com/jspenmar/DejaVu_Features,3
+7,Evade Deep Image Retrieval by Stashing Private Images in the Hash Space,Yanru Xiao,image-retrieval,,,https://github.com/sugarruy/hashstash,1
+8,Circle Loss: A Unified Perspective of Pair Similarity Optimization,Yifan Sun,face-recognition,image-retrieval,person-re-identification,https://github.com/TinyZeaMays/CircleLoss,201
+9,ASLFeat: Learning Local Features of Accurate Shape and Localization,Zixin Luo,face-recognition,image-retrieval,person-re-identification,https://github.com/lzx551402/ASLFeat,83
+10,D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features,Xuyang Bai,face-recognition,image-retrieval,person-re-identification,https://github.com/XuyangBai/D3Feat,78
+11,Fine-Grained Video-Text Retrieval With Hierarchical Graph Reasoning,Shizhe Chen,cross-modal-retrieval,image-retrieval,structured-prediction,https://github.com/cshizhe/hgr_v2t,42
+12,Weakly Supervised Visual Semantic Parsing,Alireza Zareian,graph-generation,image-retrieval,scene-graph-generation,https://github.com/alirezazareian/vspnet,10
+13,Sketch Less for More: On-the-Fly Fine-Grained Sketch-Based Image Retrieval,Ayan Kumar Bhunia,cross-modal-retrieval,image-retrieval,sketch-based-image-retrieval,https://github.com/AyanKumarBhunia/on-the-fly-FGSBIR,9
+14,Sketchformer: Transformer-Based Representation for Sketched Structure,Leo Sampaio Ferraz Ribeiro,dictionary-learning,image-retrieval,sketch-based-image-retrieval,https://github.com/leosampaio/sketchformer,3
+15,Hyperbolic Image Embeddings,Valentin Khrulkov,zero-shot-learning,image-classification,image-retrieval,https://github.com/KhrulkovV/hyperbolic-image-embeddings,153
+16,Distilling Effective Supervision From Severe Label Noise,Zizhao Zhang,image-classification,,,https://github.com/google-research/google-research/tree/master/ieg,10588
+17,GhostNet: More Features From Cheap Operations,Kai Han,image-classification,,,https://github.com/osmr/imgclsmob,1551
+18,Designing Network Design Spaces,Ilija Radosavovic,image-classification,architecture-search,object-detection,https://github.com/facebookresearch/pycls,1187
+19,Look-Into-Object: Self-Supervised Structure Modeling for Object Recognition,Mohan Zhou,fine-grained-image-classification,object-detection,object-recognition,https://github.com/JDAI-CV/DCL,337
+20,Densely Connected Search Space for More Flexible Neural Architecture Search,Jiemin Fang,image-classification,architecture-search,,https://github.com/JaminFong/DenseNAS,230
+21,SGAS: Sequential Greedy Architecture Search,Guohao Li,image-classification,architecture-search,node-classification,https://github.com/lightaime/sgas,94
+22,Filter Response Normalization Layer: Eliminating Batch Dependence in the Training of Deep Neural Networks,Saurabh Singh,image-classification,object-detection,,https://github.com/gupta-abhay/pytorch-frn,94
+23,Proxy Anchor Loss for Deep Metric Learning,Sungyeon Kim,fine-grained-image-classification,fine-grained-vehicle-classification,metric-learning,https://github.com/tjddus9597/Proxy-Anchor-CVPR2020,75
+24,Neural Architecture Search for Lightweight Non-Local Networks,Yingwei Li,image-classification,architecture-search,,https://github.com/LiYingwei/AutoNL,66
+25,Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection,Jianyuan Guo,image-classification,architecture-search,object-detection,https://github.com/ggjy/HitDet.pytorch,63
+26,Overcoming Classifier Imbalance for Long-Tail Object Detection With Balanced Group Softmax,Yu Li,image-classification,instance-segmentation,object-detection,https://github.com/FishYuLi/BalancedGroupSoftmax,61
+27,Relation-Aware Global Attention for Person Re-Identification,Zhizheng Zhang,image-classification,person-re-identification,scene-segmentation,https://github.com/microsoft/Relation-Aware-Global-Attention-Networks,50
+28,What's Hidden in a Randomly Weighted Neural Network?,Vivek Ramanujan,image-classification,,,https://github.com/allenai/hidden-networks,47
+29,Group Sparsity: The Hinge Between Filter Pruning and Decomposition for Network Compression,Yawei Li,image-classification,image-super-resolution,neural-network-compression,https://github.com/ofsoundof/group_sparsity,30
+30,Dynamic Convolutions: Exploiting Spatial Sparsity for Faster Inference,Thomas Verelst,image-classification,pose-estimation,,https://github.com/thomasverelst/dynconv,22
+31,Learning to Segment the Tail,Xinting Hu,image-classification,instance-segmentation,object-detection,https://github.com/JoyHuYY1412/LST_LVIS,19
+32,Benchmarking Adversarial Robustness on Image Classification,Yinpeng Dong,image-classification,person-re-identification,image-classification,https://github.com/thu-ml/realsafe,16
+33,Making Better Mistakes: Leveraging Class Hierarchies With Deep Networks,Luca Bertinetto,image-classification,,,https://github.com/fiveai/making-better-mistakes,16
+34,Towards Large Yet Imperceptible Adversarial Image Perturbations With Perceptual Color Distance,Zhengyu Zhao,image-classification,,,https://github.com/ZhengyuZhao/PerC-Adversarial,14
+35,MUXConv: Information Multiplexing in Convolutional Neural Networks,Zhichao Lu,image-classification,architecture-search,object-detection,https://github.com/human-analysis/MUXConv,12
+36,Adaptive Subspaces for Few-Shot Learning,Christian Simon,few-shot-image-classification,few-shot-learning,meta-learning,https://github.com/chrysts/dsn_fewshot,10
+37,Controllable Orthogonalization in Training DNNs,Lei Huang,image-classification,,,https://github.com/huangleiBuaa/ONI,8
+38,Network Adjustment: Channel Search Guided by FLOPs Utilization Ratio,Zhengsu Chen,image-classification,network-pruning,,https://github.com/danczs/NetworkAdjustment,7
+39,SOS: Selective Objective Switch for Rapid Immunofluorescence Whole Slide Image Classification,Sam Maksoud,image-classification,,,https://github.com/cradleai/LKS-Dataset,4
+40,Attentive Weights Generation for Few Shot Learning via Information Maximization,Yiluan Guo,few-shot-image-classification,few-shot-learning,image-classification,https://github.com/Yiluan/AWGIM,0
+41,Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations,Jeet Mohapatra,image-classification,,,https://github.com/JeetMo/Semantify-NN,0
+42,Self-Training With Noisy Student Improves ImageNet Classification,Qizhe Xie,data-augmentation,image-classification,,https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet,3582
+43,ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks,Qilong Wang,dimensionality-reduction,image-classification,instance-segmentation,https://github.com/BangguWu/ECANet,228
+44,SESS: Self-Ensembling Semi-Supervised 3D Object Detection,Na Zhao,3d-object-detection,image-classification,object-detection,https://github.com/Na-Z/sess,30
+45,Regularizing Class-Wise Predictions via Self-Knowledge Distillation,Sukmin Yun,calibration,image-classification,,https://github.com/alinlab/cs-kd,23
+46,Rotation Equivariant Graph Convolutional Network for Spherical Image Classification,Qin Yang,graph-construction,image-classification,,https://github.com/QinYang12/SGCN,5
+47,Enhancing Cross-Task Black-Box Transferability of Adversarial Examples With Dispersion Reduction,Yantao Lu,adversarial-attack,image-classification,object-detection,https://github.com/erbloo/dr,3
+48,Self-Supervised Learning of Pretext-Invariant Representations,Ishan Misra,object-detection,representation-learning,self-supervised-image-classification,https://github.com/HobbitLong/PyContrast,459
+49,DeepEMD: Few-Shot Image Classification With Differentiable Earth Mover's Distance and Structured Classifiers,Chi Zhang,few-shot-learning,meta-learning,image-classification,https://github.com/icoz69/DeepEMD,71
+50,MaskFlownet: Asymmetric Feature Matching With Learnable Occlusion Mask,Shengyu Zhao,optical-flow-estimation,,,https://github.com/microsoft/MaskFlownet,139
+51,GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences,Prune Truong,optical-flow-estimation,,,https://github.com/PruneTruong/GLU-Net,59
+52,ScopeFlow: Dynamic Scene Scoping for Optical Flow,Aviram Bar-Haim,optical-flow-estimation,,,https://github.com/avirambh/ScopeFlow,52
+53,FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation,Shurui Gui,optical-flow-estimation,texture-synthesis,,https://github.com/CM-BF/FeatureFlow,51
+54,Learning by Analogy: Reliable Supervision From Transformations for Unsupervised Optical Flow Estimation,Liang Liu,optical-flow-estimation,self-supervised-learning,,https://github.com/lliuz/ARFlow,49
+55,Probabilistic Pixel-Adaptive Refinement Networks,Anne S. Wannenwetsch,optical-flow-estimation,semantic-segmentation,,https://github.com/visinf/ppac_refinement,44
+56,Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching,Pengpeng Liu,optical-flow-estimation,self-supervised-learning,stereo-matching-1,https://github.com/ppliuboy/Flow2Stereo,20
+57,VOLDOR: Visual Odometry From Log-Logistic Dense Optical Flow Residuals,Zhixiang Min,optical-flow-estimation,visual-odometry,,https://github.com/htkseason/VOLDOR,14
+58,Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems,Patrick Knobelreiter,optical-flow-estimation,semantic-segmentation,,https://github.com/VLOGroup/bp-layers,5
+59,Softmax Splatting for Video Frame Interpolation,Simon Niklaus,depth-estimation,optical-flow-estimation,video-frame-interpolation,https://github.com/sniklaus/softmax-splatting,121
+60,Towards Better Generalization: Joint Depth-Pose Learning Without PoseNet,Wang Zhao,depth-estimation,optical-flow-estimation,pose-estimation,https://github.com/B1ueber2y/TrianFlow,74
+61,Cascaded Deep Video Deblurring Using Temporal Sharpness Prior,Jinshan Pan,deblurring,optical-flow-estimation,,https://github.com/csbhr/CDVD-TSP,71
+62,Learning Video Object Segmentation From Unlabeled Videos,Xiankai Lu,depth-estimation,optical-flow-estimation,scene-flow-estimation,https://github.com/carrierlxk/MuG,51
+63,Extremely Dense Point Correspondences Using a Learned Feature Descriptor,Xingtong Liu,3d-reconstruction,optical-flow-estimation,,https://github.com/lppllppl920/DenseDescriptorLearning-Pytorch,26
+64,Upgrading Optical Flow to 3D Scene Flow Through Optical Expansion,Gengshan Yang,depth-estimation,optical-flow-estimation,,https://github.com/gengshan-y/expansion,15
+65,Learning Geocentric Object Pose in Oblique Monocular Images,Gordon Christie,object-detection,optical-flow-estimation,semantic-segmentation,https://github.com/pubgeo/monocular-geocentric-pose,2
+66,Self-Supervised Monocular Scene Flow Estimation,Junhwa Hur,depth-estimation,monocular-depth-estimation,optical-flow-estimation,https://github.com/visinf/self-mono-sf,76
+67,Memory Enhanced Global-Local Aggregation for Video Object Detection,Yihong Chen,video-recognition,region-proposal,video-object-detection,https://github.com/Scalsol/mega.pytorch,172
+68,Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution,Xiaoyu Xiang,super-resolution,video-frame-interpolation,video-super-resolution,https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020,268
+69,Deep Unfolding Network for Image Super-Resolution,Kai Zhang,image-super-resolution,super-resolution,,https://github.com/cszn/USRNet,248
+70,Closed-Loop Matters: Dual Regression Networks for Single Image Super-Resolution,Yong Guo,image-super-resolution,super-resolution,,https://github.com/guoyongcs/DRN,177
+71,Structure-Preserving Super Resolution With Gradient Guidance,Cheng Ma,image-super-resolution,super-resolution,,https://github.com/Maclory/SPSR,164
+72,Image Super-Resolution With Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining,Yiqun Mei,image-super-resolution,super-resolution,,https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention,96
+73,Deep Face Super-Resolution With Iterative Collaboration Between Attentive Recovery and Landmark Estimation,Cheng Ma,super-resolution,,,https://github.com/Maclory/Deep-Iterative-Collaboration,94
+74,Dual Super-Resolution Learning for Semantic Segmentation,Li Wang,image-super-resolution,pose-estimation,semantic-segmentation,https://github.com/wanglixilinx/DSRL,25
+75,Correction Filter for Single Image Super-Resolution: Robustifying Off-the-Shelf Deep Super-Resolvers,Shady Abu Hussein,image-super-resolution,super-resolution,,https://github.com/shadyabh/Correction-Filter,20
+76,Video Super-Resolution With Temporal Group Attention,Takashi Isobe,super-resolution,video-super-resolution,,https://github.com/junpan19/VSR_TGA,16
+77,Light Field Spatial Super-Resolution via Deep Combinatorial Geometry Embedding and Structural Consistency Regularization,Jing Jin,super-resolution,,,https://github.com/jingjin25/LFSSR-ATO,12
+78,Unsupervised Adaptation Learning for Hyperspectral Imagery Super-Resolution,Lei Zhang,super-resolution,,,https://github.com/JiangtaoNie/UAL,1
+79,PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models,Sachit Menon,face-hallucination,image-super-resolution,super-resolution,https://github.com/adamian98/pulse,2201
+80,TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution,Yapeng Tian,deblurring,super-resolution,video-super-resolution,https://github.com/YapengTian/TDAN-VSR,134
+81,Learning to Super Resolve Intensity Images From Events,S. Mohammad Mostafavi I.,image-reconstruction,super-resolution,,https://github.com/gistvision/e2sri,3
+82,CNN-Generated Images Are Surprisingly Easy to Spot... for Now,Sheng-Yu Wang,data-augmentation,image-generation,super-resolution,https://github.com/PeterWang512/CNNDetection,444
+83,Deep Global Registration,Christopher Choy,brain-segmentation,image-registration,image-super-resolution,https://github.com/chrischoy/FCGF,195
+84,FastDVDnet: Towards Real-Time Deep Video Denoising Without Flow Estimation,Matias Tassano,denoising,motion-compensation,motion-estimation,https://github.com/m-tassano/fastdvdnet,102
+85,CycleISP: Real Image Restoration via Improved Data Synthesis,Syed Waqas Zamir,denoising,image-denoising,image-restoration,https://github.com/swz30/CycleISP,98
+86,A Physics-Based Noise Formation Model for Extreme Low-Light Raw Denoising,Kaixuan Wei,denoising,image-denoising,,https://github.com/Vandermode/NoiseModel,75
+87,Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes,Huanjing Yue,denoising,image-denoising,video-denoising,https://github.com/cao-cong/RViDeNet,49
+88,"Show, Edit and Tell: A Framework for Editing Image Captions",Fawaz Sammani,denoising,image-captioning,,https://github.com/fawazsammani/show-edit-tell,40
+89,Transfer Learning From Synthetic to Real-Noise Denoising With Adaptive Instance Normalization,Yoonsik Kim,denoising,transfer-learning,,https://github.com/terryoo/AINDNet,25
+90,Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging,Xin Yuan,denoising,,,https://github.com/liuyang12/PnP-SCI,11
+91,Enhancing Intrinsic Adversarial Robustness via Feature Pyramid Decoder,Guanlin Li,denoising,image-restoration,self-supervised-learning,https://github.com/GuanlinLee/FPD-for-Adversarial-Robustness,6
+92,Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy,Jaejun Yoo,data-augmentation,denoising,image-restoration,https://github.com/clovaai/cutblur,157
+93,ColorFool: Semantic Adversarial Colorization,Ali Shahin Shamsabadi,adversarial-attack,colorization,denoising,https://github.com/smartcameras/ColorFool,4
+94,Reusing Discriminators for Encoding: Towards Unsupervised Image-to-Image Translation,Runfa Chen,image-to-image-translation,unsupervised-image-to-image-translation,,https://github.com/alpc91/NICE-GAN,66
+95,Learning to Transfer Texture From Clothing Images to 3D Humans,Aymen Mir,image-to-image-translation,virtual-try-on,,https://github.com/aymenmir1/pix2surf,53
+96,Cross-Domain Correspondence Learning for Exemplar-Based Image Translation,Pan Zhang,image-to-image-translation,,,https://github.com/microsoft/CoCosNet,39
+97,Breaking the Cycle - Colleagues Are All You Need,Ori Nizan,image-to-image-translation,multimodal-unsupervised-image-to-image,unsupervised-image-to-image-translation,https://github.com/Onr/Council-GAN,7
+98,StarGAN v2: Diverse Image Synthesis for Multiple Domains,Yunjey Choi,image-generation,image-to-image-translation,,https://github.com/clovaai/stargan-v2,1406
+99,Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation,Hao Tang,bird-view-synthesis,cross-view-image-to-image-translation,image-to-image-translation,https://github.com/Ha0Tang/LGGAN,34
+100,Semi-Supervised Learning for Few-Shot Image-to-Image Translation,Yaxing Wang,few-shot-learning,image-to-image-translation,object-classification,https://github.com/yaxingwang/SEMIT,23
+101,Attentive Normalization for Conditional Image Generation,Yi Wang,gaze-estimation,image-to-image-translation,semantic-similarity,https://github.com/shepnerd/AttenNorm,15
+102,Unsupervised Multi-Modal Image Registration via Geometry Preserving Image-to-Image Translation,Moab Arar,autonomous-driving,image-registration,image-to-image-translation,https://github.com/moabarar/nemar,13
+103,Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-Training,Weituo Hao,self-supervised-learning,visual-navigation,,https://github.com/weituo12321/PREVALENT,35
+104,On Positive-Unlabeled Classification in GAN,Tianyu Guo,self-supervised-learning,,,https://github.com/huangjiadidi/PUGAN,6
+105,Self-Supervised Viewpoint Learning From Image Collections,Siva Karthik Mustikovela,metric-learning,self-supervised-learning,,https://github.com/NVlabs/SSV,161
+106,CONSAC: Robust Multi-Model Fitting by Conditional Sample Consensus,Florian Kluger,homography-estimation,self-supervised-learning,,https://github.com/fkluger/consac,31
+107,Exploit Clues From Views: Self-Supervised and Regularized Learning for Multiview Object Recognition,Chih-Hui Ho,object-recognition,self-supervised-learning,,https://github.com/chihhuiho/VISPE,5
+108,Visual Chirality,Zhiqiu Lin,data-augmentation,image-forensics,self-supervised-learning,https://github.com/linzhiqiu/digital_chirality,4
+109,Meshed-Memory Transformer for Image Captioning,Marcella Cornia,image-captioning,machine-translation,text-generation,https://github.com/aimagelab/meshed-memory-transformer,111
+110,In Defense of Grid Features for Visual Question Answering,Huaizu Jiang,image-captioning,question-answering,visual-question-answering,https://github.com/facebookresearch/grid-feats-vqa,59
+111,Say As You Wish: Fine-Grained Control of Image Caption Generation With Abstract Scene Graphs,Shizhe Chen,image-captioning,,,https://github.com/cshizhe/asg2cap,56
+112,Transform and Tell: Entity-Aware News Image Captioning,Alasdair Tran,image-captioning,language-modelling,,https://github.com/alasdairtran/transform-and-tell,24
+113,More Grounded Image Captioning by Distilling Image-Text Matching Model,Yuanen Zhou,image-captioning,text-matching,,https://github.com/YuanEZhou/Grounded-Image-Captioning,24
+114,X-Linear Attention Networks for Image Captioning,Yingwei Pan,fine-grained-visual-recognition,image-captioning,question-answering,https://github.com/Panda-Peter/image-captioning,84
+115,Learning the Redundancy-Free Features for Generalized Zero-Shot Object Recognition,Zongyan Han,object-recognition,zero-shot-learning,,https://github.com/Hanzy1996/RRF-GZSL,3
+116,Putting Visual Object Recognition in Context,Mengmi Zhang,object-recognition,,,https://github.com/kreimanlab/Put-In-Context,0
+117,Unsupervised Learning From Video With Deep Neural Embeddings,Chengxu Zhuang,object-recognition,,,https://github.com/Chrisackerman1/Unsupervised-Learning-from-Video-with-Deep-Neural-Embeddings,0
+118,Equalization Loss for Long-Tailed Object Recognition,Jingru Tan,object-detection,object-recognition,,https://github.com/tztztztztz/eql.detectron2,102
+119,A Unified Object Motion and Affinity Model for Online Multi-Object Tracking,Junbo Yin,metric-learning,multi-object-tracking,multi-task-learning,https://github.com/yinjunbo/UMA-MOT,41
+120,How to Train Your Deep Multi-Object Tracker,Yihong Xu,multi-object-tracking,multiple-object-tracking,multiple-people-tracking,https://github.com/yihongXU/deepMOT,326
+121,TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model,Bo Pang,multi-object-tracking,object-detection,object-tracking,https://github.com/BoPang1996/TubeTK,58
+122,GNN3DMOT: Graph Neural Network for 3D Multi-Object Tracking With 2D-3D Multi-Feature Learning,Xinshuo Weng,3d-multi-object-tracking,multi-object-tracking,object-tracking,https://github.com/xinshuoweng/GNN3DMOT,22
+123,Learning a Neural Solver for Multiple Object Tracking,Guillem Braso,motion-compensation,motion-prediction,multi-object-tracking,https://github.com/dvl-tum/mot_neural_solver,70
+124,P2B: Point-to-Box Network for 3D Object Tracking in Point Clouds,Haozhe Qi,object-tracking,,,https://github.com/HaozheQi/P2B,55
+125,Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking,Jin Gao,object-tracking,visual-object-tracking,visual-tracking,https://github.com/Amgao/RLS-RTMDNet,1
+126,Siam R-CNN: Visual Tracking by Re-Detection,Paul Voigtlaender,object-detection,object-tracking,visual-object-tracking,https://github.com/VisualComputingInstitute/SiamR-CNN,74
+127,FPConv: Learning Local Flattening for Point Convolution,Yiqun Lin,3d-object-classification,object-classification,scene-segmentation,https://github.com/lyqun/FPConv,66
+128,Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds,Yongming Rao,3d-object-classification,object-classification,representation-learning,https://github.com/raoyongming/PointGLR,48
+129,Learning a Unified Sample Weighting Network for Object Detection,Qi Cai,object-classification,object-detection,,https://github.com/caiqi/sample-weighting-network,32
+130,Momentum Contrast for Unsupervised Visual Representation Learning,Kaiming He,contrastive-learning,object-classification,self-supervised-action-recognition,https://github.com/facebookresearch/moco,1125
+131,Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion,Xiaoming Li,image-reconstruction,,,https://github.com/csxmli2016/ASFFNet,30
+132,Diversified Arbitrary Style Transfer via Deep Feature Perturbation,Zhizhong Wang,image-reconstruction,style-transfer,,https://github.com/EndyWon/Deep-Feature-Perturbation,8
+133,Image2StyleGAN++: How to Edit the Embedded Images?,Rameen Abdal,image-inpainting,image-reconstruction,style-transfer,https://github.com/pacifinapacific/StyleGAN_LatentEditor,56
+134,Image Demoireing with Learnable Bandpass Filters,Bolun Zheng,image-restoration,,,https://github.com/zhenngbolun/Learnbale_Bandpass_Filter,11
+135,MTL-NAS: Task-Agnostic Neural Architecture Search Towards General-Purpose Multi-Task Learning,Yuan Gao,multi-task-learning,architecture-search,,https://github.com/bhpfelix/MTLNAS,33
+136,Deep Homography Estimation for Dynamic Scenes,Hoang Le,homography-estimation,multi-task-learning,,https://github.com/lcmhoang/hmg-dynamics,15
+137,OccuSeg: Occupancy-Aware 3D Instance Segmentation,Lei Han,3d-instance-segmentation-1,instance-segmentation,multi-task-learning,https://github.com/facebookresearch/SparseConvNet,1137
+138,AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation,Hyeongmin Lee,video-frame-interpolation,,,https://github.com/HyeongminLEE/AdaCoF-pytorch,69
+139,Scene-Adaptive Video Frame Interpolation via Meta-Learning,Myungsub Choi,meta-learning,video-frame-interpolation,,https://github.com/myungsub/meta-interpolation,14
+140,Multi-Scale Interactive Network for Salient Object Detection,Youwei Pang,saliency-detection,salient-object-detection,,https://github.com/lartpang/MINet,29
+141,JL-DCF: Joint Learning and Densely-Cooperative Fusion Framework for RGB-D Salient Object Detection,Keren Fu,object-detection,salient-object-detection,,https://github.com/kerenfu/JLDCF,13
+142,Weakly-Supervised Salient Object Detection via Scribble Annotations,Jing Zhang,edge-detection,object-detection,salient-object-detection,https://github.com/JingZhang617/Scribble_Saliency,34
+143,A2dele: Adaptive and Attentive Depth Distiller for Efficient RGB-D Salient Object Detection,Yongri Piao,object-detection,saliency-detection,salient-object-detection,https://github.com/OIPLab-DUT/CVPR2020-A2dele,9
+144,Central Similarity Quantization for Efficient Image and Video Retrieval,Li Yuan,quantization,video-retrieval,,https://github.com/yuanli2333/Hadamard-Matrix-for-hashing,66
+145,Video Playback Rate Perception for Self-Supervised Spatio-Temporal Representation Learning,Yuan Yao,representation-learning,video-retrieval,,https://github.com/yuanyao366/PRP,8
+146,Searching for Actions on the Hyperbole,Teng Long,action-recognition-in-videos,video-retrieval,zero-shot-learning,https://github.com/Tenglon/hyperbolic_action,1
+147,End-to-End Learning of Visual Representations From Uncurated Instructional Videos,Antoine Miech,action-localization,action-segmentation,video-retrieval,https://github.com/antoine77340/S3D_HowTo100M,43
+148,"Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection",Zhongzheng Ren,object-detection,video-object-detection,weakly-supervised-object-detection,https://github.com/NVlabs/wetectron,66
+149,LiDAR-Based Online 3D Video Object Detection With Graph-Based Message Passing and Spatiotemporal Transformer Attention,Junbo Yin,object-detection,video-object-detection,,https://github.com/yinjunbo/3DVID,44
+150,Multi-Scale Progressive Fusion Network for Single Image Deraining,Kui Jiang,rain-removal,single-image-deraining,,https://github.com/kuihua/MSPFN,12
+151,Syn2Real Transfer Learning for Image Deraining Using Gaussian Processes,Rajeev Yasarla,gaussian-processes,rain-removal,transfer-learning,https://github.com/rajeevyasarla/Syn2Real,21
+152,A Model-Driven Deep Neural Network for Single Image Rain Removal,Hong Wang,dictionary-learning,rain-removal,single-image-deraining,https://github.com/hongwang01/RCDNet,20
+153,Deep Shutter Unrolling Network,Peidong Liu,motion-estimation,,,https://github.com/ethliup/DeepUnrollNet,3
+154,Dynamic Neural Relational Inference,Colin Graber,monocular-visual-odometry,motion-estimation,visual-odometry,https://github.com/cgraber/cvpr_dNRI,2
+155,Neural Blind Deconvolution Using Deep Priors,Dongwei Ren,blind-image-deblurring,deblurring,image-deconvolution,https://github.com/csdwren/SelfDeblur,181
+156,Fast Symmetric Diffeomorphic Image Registration with Convolutional Neural Networks,Tony C.W. Mok,image-registration,,,https://github.com/cwmok/Fast-Symmetric-Diffeomorphic-Image-Registration-with-Convolutional-Neural-Networks,2
+157,SuperGlue: Learning Feature Matching With Graph Neural Networks,Paul-Edouard Sarlin,domain-adaptation,homography-estimation,interest-point-detection,https://github.com/magicleap/SuperGluePretrainedNetwork,506
+158,Contextual Residual Aggregation for Ultra High-Resolution Image Inpainting,Zili Yi,image-inpainting,,,https://github.com/Atlas200dk/sample-imageinpainting-HiFill,92
+159,Recurrent Feature Reasoning for Image Inpainting,Jingyuan Li,image-inpainting,,,https://github.com/jingyuanli001/RFR-Inpainting,22
+160,Disentangling Physical Dynamics From Unknown Factors for Unsupervised Video Prediction,Vincent Le Guen,video-prediction,,,https://github.com/vincent-leguen/PhyDNet,12
+161,Exploring Spatial-Temporal Multi-Frequency Analysis for High-Fidelity and Temporal-Consistency Video Prediction,Beibei Jin,video-prediction,,,https://github.com/Bei-Jin/STMFANet,4
+162,"Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation",Bowen Cheng,instance-segmentation,panoptic-segmentation,semantic-segmentation,https://github.com/bowenc0221/panoptic-deeplab,145
+163,Video Panoptic Segmentation,Dahun Kim,instance-segmentation,panoptic-segmentation,semantic-segmentation,https://github.com/mcahny/vps,40
+164,MixNMatch: Multifactor Disentanglement and Encoding for Conditional Image Generation,Yuheng Li,conditional-image-generation,image-generation,,https://github.com/Yuheng-Li/MixNMatch,424
+165,Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models,Giannis Daras,conditional-image-generation,deep-attention,image-generation,https://github.com/giannisdaras/ylg,77
+166,DeepLPF: Deep Local Parametric Filters for Image Enhancement,Sean Moran,image-enhancement,,,https://github.com/sjmoran/deep_local_parametric_filters,34
+167,Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,Chunle Guo,face-detection,image-enhancement,low-light-image-enhancement,https://github.com/Li-Chongyi/Zero-DCE,49
+168,Learning Fast and Robust Target Models for Video Object Segmentation,Andreas Robinson,semantic-segmentation,video-object-segmentation,video-semantic-segmentation,https://github.com/andr345/frtm-vos,60
+169,Temporally Distributed Networks for Fast Video Semantic Segmentation,Ping Hu,real-time-semantic-segmentation,semantic-segmentation,video-semantic-segmentation,https://github.com/feinanshan/TDNet,53
+170,Rethinking Zero-Shot Video Classification: End-to-End Training for Realistic Applications,Biagio Brattoli,video-classification,zero-shot-learning,,https://github.com/bbrattoli/ZeroShotVideoClassification,59
+171,SmallBigNet: Integrating Core and Contextual Views for Video Classification,Xianhang Li,video-classification,,,https://github.com/xhl-video/SmallBigNet,2
+172,ScrabbleGAN: Semi-Supervised Varying Length Handwritten Text Generation,Sharon Fogel,domain-adaptation,handwriting-recognition,optical-character-recognition,https://github.com/amzn/convolutional-handwriting-gan,10
+173,Learning From Synthetic Animals,Jiteng Mu,edge-detection,object-detection,synthetic-data-generation,https://github.com/JitengMu/Learning-from-Synthetic-Animals,12
+174,Semantic Image Manipulation Using Scene Graphs,Helisa Dhamo,image-generation,layout-to-image-generation,,https://github.com/he-dhamo/simsg,9
+175,MetaIQA: Deep Meta-Learning for No-Reference Image Quality Assessment,Hancheng Zhu,image-quality-assessment,meta-learning,no-reference-image-quality-assessment,https://github.com/zhuhancheng/MetaIQA,9
+176,Background Matting: The World Is Your Green Screen,Soumyadip Sengupta,image-matting,,,https://github.com/senguptaumd/Background-Matting,3211
+177,EfficientDet: Scalable and Efficient Object Detection,Mingxing Tan,object-detection,object-detection-in-aerial-images,pedestrian-detection,https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch,3441
+178,Context R-CNN: Long Term Temporal Context for Per-Camera Object Detection,Sara Beery,object-detection,video-understanding,,https://github.com/tensorflow/models/tree/master/research/object_detection,64576
+179,An Adaptive Neural Network for Unsupervised Mosaic Consistency Analysis in Image Forensics,Quentin Bammey,demosaicking,image-forensics,,https://github.com/qbammey/adaptive_cfa_forensics,0
+180,Perceptual Quality Assessment of Smartphone Photography,Yuming Fang,blind-image-quality-assessment,image-quality-assessment,,https://github.com/h4nwei/SPAQ,5
+181,ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation,Yawar Siddiqui,active-learning,semantic-segmentation,,https://github.com/nihalsid/ViewAL,42
+182,Deep Active Learning for Biased Datasets via Fisher Kernel Self-Supervision,Denis Gudovskiy,active-learning,,,https://github.com/gudovskiy/al-fk-self-supervision,8
+183,Learning for Video Compression With Hierarchical Quality and Recurrent Enhancement,Ren Yang,image-compression,video-compression,,https://github.com/RenYang-home/HLVC,30
+184,NAS-FCOS: Fast Neural Architecture Search for Object Detection,Ning Wang,architecture-search,object-detection,,https://github.com/Lausannen/NAS-FCOS,135
+185,Rethinking Performance Estimation in Neural Architecture Search,Xiawu Zheng,architecture-search,,,https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS,115
+186,CARS: Continuous Evolution for Efficient Neural Architecture Search,Zhaohui Yang,architecture-search,,,https://github.com/huawei-noah/CARS,89
+187,Block-Wisely Supervised Neural Architecture Search With Knowledge Distillation,Changlin Li,architecture-search,,,https://github.com/changlin31/DNA,85
+188,DSNAS: Direct Neural Architecture Search Without Parameter Retraining,Shoukang Hu,architecture-search,,,https://github.com/SNAS-Series/SNAS-Series,56
+189,When NAS Meets Robustness: In Search of Robust Architectures Against Adversarial Attacks,Minghao Guo,architecture-search,,,https://github.com/gmh14/RobNets,36
+190,AOWS: Adaptive and Optimal Network Width Search With Latency Constraints,Maxim Berman,architecture-search,,,https://github.com/bermanmaxim/AOWS,25
+191,Butterfly Transform: An Efficient FFT Based Neural Architecture Design,Keivan Alizadeh vahid,architecture-search,,,https://github.com/keivanalizadeh/ButterflyTransform,6
+192,SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization,Xianzhi Du,instance-segmentation,architecture-search,object-detection,https://github.com/tensorflow/tpu/tree/master/models/official/detection,3585
+193,GAN Compression: Efficient Architectures for Interactive Conditional GANs,Muyang Li,image-generation,architecture-search,,https://github.com/mit-han-lab/gan-compression,551
+194,AdversarialNAS: Adversarial Neural Architecture Search for GANs,Chen Gao,image-generation,architecture-search,,https://github.com/chengaopro/AdversarialNAS,16
+195,MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation,Chaoyang He,bilevel-optimization,architecture-search,,https://github.com/chaoyanghe/MiLeNAS,14
+196,Searching Central Difference Convolutional Networks for Face Anti-Spoofing,Zitong Yu,face-anti-spoofing,face-recognition,architecture-search,https://github.com/ZitongYu/CDCN,171
+197,HRank: Filter Pruning Using High-Rank Feature Map,Mingbao Lin,network-pruning,,,https://github.com/lmbxmu/HRank,81
+198,Dreaming to Distill: Data-Free Knowledge Transfer via DeepInversion,Hongxu Yin,continual-learning,network-pruning,transfer-learning,https://github.com/NVlabs/DeepInversion,136
+199,Towards Efficient Model Compression via Learned Global Ranking,Ting-Wu Chin,model-compression,,,https://github.com/cmu-enyac/LeGR,60
+200,Learning to Structure an Image With Few Colors,Yunzhong Hou,image-compression,quantization,,https://github.com/hou-yz/color_distillation,16
+201,Learning Better Lossless Compression Using Lossy Compression,Fabian Mentzer,image-compression,,,https://github.com/fab-jul/RC-PyTorch,5
+202,Forward and Backward Information Retention for Accurate Binary Neural Networks,Haotong Qin,neural-network-compression,quantization,,https://github.com/JDAI-CV/dabnn,623

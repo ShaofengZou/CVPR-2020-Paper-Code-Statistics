@@ -1,0 +1,271 @@
+,title,author,task 1,task 2,task 3,github,stars
+0,Context R-CNN: Long Term Temporal Context for Per-Camera Object Detection,Sara Beery,object-detection,video-understanding,,https://github.com/tensorflow/models/tree/master/research/object_detection,64576
+1,MnasFPN: Learning Latency-Aware Pyramid Architecture for Object Detection on Mobile Devices,Bo Chen,object-detection,,,https://github.com/tensorflow/models/tree/master/research/object_detection,64576
+2,Bridging the Gap Between Anchor-Based and Anchor-Free Detection via Adaptive Training Sample Selection,Shifeng Zhang,object-detection,,,https://github.com/open-mmlab/mmdetection,10263
+3,EfficientDet: Scalable and Efficient Object Detection,Mingxing Tan,object-detection,object-detection-in-aerial-images,pedestrian-detection,https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch,3441
+4,nuScenes: A Multimodal Dataset for Autonomous Driving,Holger Caesar,3d-object-detection,autonomous-driving,autonomous-vehicles,https://github.com/traveller59/second.pytorch,906
+5,Self-Supervised Learning of Pretext-Invariant Representations,Ishan Misra,object-detection,representation-learning,self-supervised-image-classification,https://github.com/HobbitLong/PyContrast,459
+6,Revisiting the Sibling Head in Object Detector,Guanglu Song,object-detection,,,https://github.com/Sense-X/TSD,274
+7,Structure Aware Single-Stage 3D Object Detection From Point Cloud,Chenhang He,3d-object-detection,autonomous-driving,object-detection,https://github.com/skyhehe123/SA-SSD,216
+8,Scale-Equalizing Pyramid Convolution for Object Detection,Xinjiang Wang,object-detection,,,https://github.com/jshilong/SEPC,210
+9,Few-Shot Object Detection With Attention-RPN and Multi-Relation Detector,Qi Fan,few-shot-object-detection,object-detection,,https://github.com/fanq15/Few-Shot-Object-Detection-Dataset,205
+10,Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud,Weijing Shi,3d-object-detection,object-detection,,https://github.com/WeijingShi/Point-GNN,153
+11,"Detection in Crowded Scenes: One Proposal, Multiple Predictions",Xuangeng Chu,object-detection,,,https://github.com/Purkialo/CrowdDet,153
+12,PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection,Shaoshuai Shi,3d-object-detection,object-detection,,https://github.com/jhultman/PV-RCNN,151
+13,DSGN: Deep Stereo Geometry Network for 3D Object Detection,Yilun Chen,3d-object-detection,object-detection,,https://github.com/chenyilun95/DSGN,128
+14,Learning Depth-Guided Convolutions for Monocular 3D Object Detection,Mingyu Ding,3d-object-detection,monocular-3d-object-detection,object-detection,https://github.com/dingmyu/D4LCN,113
+15,Equalization Loss for Long-Tailed Object Recognition,Jingru Tan,object-detection,object-recognition,,https://github.com/tztztztztz/eql.detectron2,102
+16,Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation,Jiaming Sun,3d-object-detection,3d-object-detection-from-stereo-images,disparity-estimation,https://github.com/zju3dv/disprcnn,76
+17,Camouflaged Object Detection,Deng-Ping Fan,object-detection,,,https://github.com/DengPingFan/SINet,76
+18,Siam R-CNN: Visual Tracking by Re-Detection,Paul Voigtlaender,object-detection,object-tracking,visual-object-tracking,https://github.com/VisualComputingInstitute/SiamR-CNN,74
+19,DR Loss: Improving Object Detection by Distributional Ranking,Qi Qian,object-detection,,,https://github.com/idstcv/DR_loss,71
+20,"Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection",Zhongzheng Ren,object-detection,video-object-detection,weakly-supervised-object-detection,https://github.com/NVlabs/wetectron,66
+21,MotionNet: Joint Perception and Motion Prediction for Autonomous Driving Based on Bird's Eye View Maps,Pengxiang Wu,3d-object-detection,autonomous-driving,motion-prediction,https://github.com/pxiangwu/MotionNet,58
+22,LiDAR-Based Online 3D Video Object Detection With Graph-Based Message Passing and Spatiotemporal Transformer Attention,Junbo Yin,object-detection,video-object-detection,,https://github.com/yinjunbo/3DVID,44
+23,SESS: Self-Ensembling Semi-Supervised 3D Object Detection,Na Zhao,3d-object-detection,image-classification,object-detection,https://github.com/Na-Z/sess,30
+24,AugFPN: Improving Multi-Scale Feature Learning for Object Detection,Chaoxu Guo,object-detection,,,https://github.com/Gus-Guo/AugFPN,25
+25,MLCVNet: Multi-Level Context VoteNet for 3D Object Detection,Qian Xie,3d-object-detection,object-detection,,https://github.com/NUAAXQ/MLCVNet,20
+26,JL-DCF: Joint Learning and Densely-Cooperative Fusion Framework for RGB-D Salient Object Detection,Keren Fu,object-detection,salient-object-detection,,https://github.com/kerenfu/JLDCF,13
+27,IDA-3D: Instance-Depth-Aware 3D Object Detection From Stereo Vision for Autonomous Driving,Wanli Peng,3d-object-detection,autonomous-driving,depth-estimation,https://github.com/swords123/IDA-3D,12
+28,Learning When and Where to Zoom With Deep Reinforcement Learning,Burak Uzkent,object-detection,region-proposal,,https://github.com/ermongroup/PatchDrop,12
+29,Cross-Domain Document Object Detection: Benchmark Suite and Method,Kai Li,object-detection,,,https://github.com/kailigo/cddod,11
+30,A2dele: Adaptive and Attentive Depth Distiller for Efficient RGB-D Salient Object Detection,Yongri Piao,object-detection,saliency-detection,salient-object-detection,https://github.com/OIPLab-DUT/CVPR2020-A2dele,9
+31,Mixture Dense Regression for Object Detection and Human Pose Estimation,Ali Varamesh,dense-object-detection,object-detection,pose-estimation,https://github.com/alivaramesh/MixtureDenseRegression,7
+32,Seeing without Looking: Contextual Rescoring of Object Detections for AP Maximization,Lourenco V. Pato,object-detection,,,https://github.com/LourencoVazPato/seeing-without-looking,7
+33,Semantic Pyramid for Image Generation,Assaf Shocher,object-detection,semantic-segmentation,semantic-segmentation,https://github.com/rosinality/semantic-pyramid-pytorch,5
+34,Learning Geocentric Object Pose in Oblique Monocular Images,Gordon Christie,object-detection,optical-flow-estimation,semantic-segmentation,https://github.com/pubgeo/monocular-geocentric-pose,2
+35,PointPainting: Sequential Fusion for 3D Object Detection,Sourabh Vora,3d-object-detection,object-detection,self-driving-cars,https://github.com/rshilliday/painting,1
+36,PolarMask: Single Shot Instance Segmentation With Polar Representation,Enze Xie,instance-segmentation,object-detection,semantic-segmentation,https://github.com/xieenze/PolarMask,583
+37,Look-Into-Object: Self-Supervised Structure Modeling for Object Recognition,Mohan Zhou,fine-grained-image-classification,object-detection,object-recognition,https://github.com/JDAI-CV/DCL,337
+38,CentripetalNet: Pursuing High-Quality Keypoint Pairs for Object Detection,Zhiwei Dong,instance-segmentation,object-detection,semantic-segmentation,https://github.com/KiveeDong/CentripetalNet,170
+39,NAS-FCOS: Fast Neural Architecture Search for Object Detection,Ning Wang,architecture-search,object-detection,,https://github.com/Lausannen/NAS-FCOS,135
+40,Filter Response Normalization Layer: Eliminating Batch Dependence in the Training of Deep Neural Networks,Saurabh Singh,image-classification,object-detection,,https://github.com/gupta-abhay/pytorch-frn,94
+41,Dynamic Refinement Network for Oriented and Densely Packed Object Detection,Xingjia Pan,feature-selection,object-detection,,https://github.com/Anymake/DRN_CVPR2020,81
+42,PPDM: Parallel Point Detection and Matching for Real-Time Human-Object Interaction Detection,Yue Liao,human-object-interaction-detection,object-detection,,https://github.com/YueLiao/PPDM,68
+43,TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model,Bo Pang,multi-object-tracking,object-detection,object-tracking,https://github.com/BoPang1996/TubeTK,58
+44,D2Det: Towards High Quality Object Detection and Instance Segmentation,Jiale Cao,instance-segmentation,object-detection,semantic-segmentation,https://github.com/JialeCao001/D2Det,49
+45,Exploring Categorical Regularization for Domain Adaptive Object Detection,Chang-Dong Xu,domain-adaptation,object-detection,,https://github.com/Megvii-Nanjing/CR-DA-DET,39
+46,Weakly-Supervised Salient Object Detection via Scribble Annotations,Jing Zhang,edge-detection,object-detection,salient-object-detection,https://github.com/JingZhang617/Scribble_Saliency,34
+47,Cross-Domain Detection via Graph-Induced Prototype Alignment,Minghao Xu,domain-adaptation,object-detection,,https://github.com/ChrisAllenMing/GPA-detection,34
+48,3D-MPA: Multi-Proposal Aggregation for 3D Semantic Instance Segmentation,Francis Engelmann,3d-instance-segmentation-1,3d-object-detection,3d-semantic-instance-segmentation,https://github.com/francisengelmann/3D-MPA,33
+49,Learning a Unified Sample Weighting Network for Object Detection,Qi Cai,object-classification,object-detection,,https://github.com/caiqi/sample-weighting-network,32
+50,Multi-Scale Interactive Network for Salient Object Detection,Youwei Pang,saliency-detection,salient-object-detection,,https://github.com/lartpang/MINet,29
+51,Learning Saliency Propagation for Semi-Supervised Instance Segmentation,Yanzhao Zhou,instance-segmentation,object-detection,semantic-segmentation,https://github.com/ucbdrive/ShapeProp,27
+52,What Deep CNNs Benefit From Global Covariance Pooling: An Optimization Perspective,Qilong Wang,instance-segmentation,object-detection,semantic-segmentation,https://github.com/ZhangLi-CS/GCP_Optimization,15
+53,Learning From Synthetic Animals,Jiteng Mu,edge-detection,object-detection,synthetic-data-generation,https://github.com/JitengMu/Learning-from-Synthetic-Animals,12
+54,Multiple Anchor Learning for Visual Object Detection,Wei Ke,multiple-instance-learning,object-detection,,https://github.com/KevinKecc/MAL,8
+55,Learning to Manipulate Individual Objects in an Image,Yanchao Yang,image-manipulation-detection,object-detection,,https://github.com/ChenYutongTHU/Learning-to-manipulate-individual-objects-in-an-image-Implementation,3
+56,SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization,Xianzhi Du,instance-segmentation,architecture-search,object-detection,https://github.com/tensorflow/tpu/tree/master/models/official/detection,3585
+57,Designing Network Design Spaces,Ilija Radosavovic,image-classification,architecture-search,object-detection,https://github.com/facebookresearch/pycls,1187
+58,Memory Enhanced Global-Local Aggregation for Video Object Detection,Yihong Chen,video-recognition,region-proposal,video-object-detection,https://github.com/Scalsol/mega.pytorch,172
+59,Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection,Jianyuan Guo,image-classification,architecture-search,object-detection,https://github.com/ggjy/HitDet.pytorch,63
+60,Overcoming Classifier Imbalance for Long-Tail Object Detection With Balanced Group Softmax,Yu Li,image-classification,instance-segmentation,object-detection,https://github.com/FishYuLi/BalancedGroupSoftmax,61
+61,Learning to Segment the Tail,Xinting Hu,image-classification,instance-segmentation,object-detection,https://github.com/JoyHuYY1412/LST_LVIS,19
+62,MUXConv: Information Multiplexing in Convolutional Neural Networks,Zhichao Lu,image-classification,architecture-search,object-detection,https://github.com/human-analysis/MUXConv,12
+63,Enhancing Cross-Task Black-Box Transferability of Adversarial Examples With Dispersion Reduction,Yantao Lu,adversarial-attack,image-classification,object-detection,https://github.com/erbloo/dr,3
+64,PointRend: Image Segmentation As Rendering,Alexander Kirillov,semantic-segmentation,,,https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend,11147
+65,RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds,Qingyong Hu,3d-semantic-segmentation,semantic-segmentation,,https://github.com/QingyongHu/RandLA-Net,418
+66,State-Aware Tracker for Real-Time Video Object Segmentation,Xi Chen,semantic-segmentation,semi-supervised-video-object-segmentation,video-object-segmentation,https://github.com/MegviiDetection/video_analyst,354
+67,Learning Dynamic Routing for Semantic Segmentation,Yanwei Li,semantic-segmentation,,,https://github.com/yanwei-li/DynamicRouting,228
+68,Single-Stage Semantic Segmentation From Image Labels,Nikita Araslanov,semantic-segmentation,,,https://github.com/visinf/1-stage-wseg,160
+69,MAST: A Memory-Augmented Self-Supervised Tracker,Zihang Lai,semantic-segmentation,semi-supervised-video-object-segmentation,video-object-segmentation,https://github.com/zlai0/MAST,127
+70,Footprints and Free Space From a Single Color Image,Jamie Watson,semantic-segmentation,,,https://github.com/nianticlabs/footprints,113
+71,Super-BPD: Super Boundary-to-Pixel Direction for Fast Image Segmentation,Jianqiang Wan,semantic-segmentation,,,https://github.com/JianqiangWan/Super-BPD,91
+72,PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation,Yang Zhang,3d-semantic-segmentation,autonomous-driving,semantic-segmentation,https://github.com/edwardzhou130/PolarSeg,86
+73,MSeg: A Composite Dataset for Multi-Domain Semantic Segmentation,John Lambert,semantic-segmentation,,,https://github.com/mseg-dataset/mseg-api,79
+74,Learning Fast and Robust Target Models for Video Object Segmentation,Andreas Robinson,semantic-segmentation,video-object-segmentation,video-semantic-segmentation,https://github.com/andr345/frtm-vos,60
+75,Temporally Distributed Networks for Fast Video Semantic Segmentation,Ping Hu,real-time-semantic-segmentation,semantic-segmentation,video-semantic-segmentation,https://github.com/feinanshan/TDNet,53
+76,DualConvMesh-Net: Joint Geodesic and Euclidean Convolutions on 3D Meshes,Jonas Schult,3d-semantic-segmentation,scene-segmentation,semantic-segmentation,https://github.com/VisualComputingInstitute/dcm-net,47
+77,Agriculture-Vision: A Large Aerial Image Database for Agricultural Pattern Analysis,Mang Tik Chiu,semantic-segmentation,,,https://github.com/SHI-Labs/Agriculture-Vision,39
+78,xMUDA: Cross-Modal Unsupervised Domain Adaptation for 3D Semantic Segmentation,Maximilian Jaritz,3d-semantic-segmentation,autonomous-driving,domain-adaptation,https://github.com/valeoai/xmuda,23
+79,Semi-Supervised Semantic Segmentation With Cross-Consistency Training,Yassine Ouali,semantic-segmentation,semi-supervised-semantic-segmentation,,https://github.com/yassouali/CCT,19
+80,Weakly-Supervised Semantic Segmentation via Sub-Category Exploration,Yu-Ting Chang,semantic-segmentation,weakly-supervised-semantic-segmentation,,https://github.com/Juliachang/SC-CAM,14
+81,Graph-Guided Architecture Search for Real-Time Semantic Segmentation,Peiwen Lin,real-time-semantic-segmentation,semantic-segmentation,,https://github.com/L-Lighter/LightNet,12
+82,Learning Integral Objects With Intra-Class Discriminator for Weakly-Supervised Semantic Segmentation,Junsong Fan,semantic-segmentation,weakly-supervised-semantic-segmentation,,https://github.com/js-fan/ICD,8
+83,A Self-supervised Approach for Adversarial Robustness,Muzammal Naseer,semantic-segmentation,semi-supervised-semantic-segmentation,out-of-distribution-detection,https://github.com/Muzammal-Naseer/NRP,5
+84,Referring Image Segmentation via Cross-Modal Progressive Comprehension,Shaofei Huang,semantic-segmentation,,,https://github.com/spyflying/CMPC-Refseg,1
+85,Sparse Layered Graphs for Multi-Object Segmentation,Niels Jeppesen,semantic-segmentation,image-generation,instance-segmentation,https://github.com/Skielex/slgbuilder,0
+86,Mask Encoding for Single Shot Instance Segmentation,Rufeng Zhang,instance-segmentation,semantic-segmentation,,https://github.com/aim-uofa/AdelaiDet,896
+87,CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement,Ho Kei Cheng,scene-parsing,semantic-segmentation,,https://github.com/hkchengrex/CascadePSP,188
+88,FSS-1000: A 1000-Class Dataset for Few-Shot Segmentation,Xiang Li,few-shot-image-segmentation,semantic-segmentation,,https://github.com/HKUSTCV/FSS-1000,128
+89,Self-Supervised Equivariant Attention Mechanism for Weakly Supervised Semantic Segmentation,Yude Wang,data-augmentation,semantic-segmentation,weakly-supervised-semantic-segmentation,https://github.com/YudeWang/SEAM,109
+90,Cars Can't Fly Up in the Sky: Improving Urban-Scene Segmentation via Height-Driven Attention Networks,Sungha Choi,scene-segmentation,semantic-segmentation,,https://github.com/shachoi/HANet,75
+91,Probabilistic Pixel-Adaptive Refinement Networks,Anne S. Wannenwetsch,optical-flow-estimation,semantic-segmentation,,https://github.com/visinf/ppac_refinement,44
+92,ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation,Yawar Siddiqui,active-learning,semantic-segmentation,,https://github.com/nihalsid/ViewAL,42
+93,Instance Segmentation of Biological Images Using Harmonic Embeddings,Victor Kulikov,instance-segmentation,semantic-segmentation,,https://github.com/kulikovv/harmonic,24
+94,Interactive Object Segmentation With Inside-Outside Guidance,Shiyin Zhang,instance-segmentation,semantic-segmentation,,https://github.com/shiyinzhang/Inside-Outside-Guidance,22
+95,"Classifying, Segmenting, and Tracking Object Instances in Video with Mask Propagation",Gedas Bertasius,instance-segmentation,semantic-segmentation,,https://github.com/jiawen9611/Awesome-Video-Instance-Segmentation,13
+96,Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems,Patrick Knobelreiter,optical-flow-estimation,semantic-segmentation,,https://github.com/VLOGroup/bp-layers,5
+97,A U-Net Based Discriminator for Generative Adversarial Networks,Edgar Schonfeld,compressive-sensing,semantic-segmentation,,https://github.com/xingchenzhao/deep-learning-team-project,2
+98,Phase Consistent Ecological Domain Adaptation,Yanchao Yang,domain-adaptation,semantic-segmentation,unsupervised-domain-adaptation,https://github.com/donglao/PCEDA,1
+99,BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation,Hao Chen,instance-segmentation,real-time-instance-segmentation,semantic-segmentation,https://github.com/aim-uofa/adet,896
+100,"Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation",Bowen Cheng,instance-segmentation,panoptic-segmentation,semantic-segmentation,https://github.com/bowenc0221/panoptic-deeplab,145
+101,Video Panoptic Segmentation,Dahun Kim,instance-segmentation,panoptic-segmentation,semantic-segmentation,https://github.com/mcahny/vps,40
+102,Dual Super-Resolution Learning for Semantic Segmentation,Li Wang,image-super-resolution,pose-estimation,semantic-segmentation,https://github.com/wanglixilinx/DSRL,25
+103,3D Part Guided Image Editing for Fine-Grained Object Understanding,Zongdai Liu,autonomous-driving,instance-segmentation,semantic-segmentation,https://github.com/zongdai/EditingForDNN,12
+104,Light-weight Calibrator: A Separable Component for Unsupervised Domain Adaptation,Shaokai Ye,adversarial-attack,domain-adaptation,semantic-segmentation,https://github.com/yeshaokai/Calibrator-Domain-Adaptation,3
+105,Few-Shot Class-Incremental Learning,Xiaoyu Tao,few-shot-learning,few-shot-image-segmentation,semantic-segmentation,https://github.com/xyutao/fscil,3
+106,Distilling Effective Supervision From Severe Label Noise,Zizhao Zhang,image-classification,,,https://github.com/google-research/google-research/tree/master/ieg,10588
+107,GhostNet: More Features From Cheap Operations,Kai Han,image-classification,,,https://github.com/osmr/imgclsmob,1551
+108,Densely Connected Search Space for More Flexible Neural Architecture Search,Jiemin Fang,image-classification,architecture-search,,https://github.com/JaminFong/DenseNAS,230
+109,SGAS: Sequential Greedy Architecture Search,Guohao Li,image-classification,architecture-search,node-classification,https://github.com/lightaime/sgas,94
+110,Proxy Anchor Loss for Deep Metric Learning,Sungyeon Kim,fine-grained-image-classification,fine-grained-vehicle-classification,metric-learning,https://github.com/tjddus9597/Proxy-Anchor-CVPR2020,75
+111,Neural Architecture Search for Lightweight Non-Local Networks,Yingwei Li,image-classification,architecture-search,,https://github.com/LiYingwei/AutoNL,66
+112,Relation-Aware Global Attention for Person Re-Identification,Zhizheng Zhang,image-classification,person-re-identification,scene-segmentation,https://github.com/microsoft/Relation-Aware-Global-Attention-Networks,50
+113,What's Hidden in a Randomly Weighted Neural Network?,Vivek Ramanujan,image-classification,,,https://github.com/allenai/hidden-networks,47
+114,Group Sparsity: The Hinge Between Filter Pruning and Decomposition for Network Compression,Yawei Li,image-classification,image-super-resolution,neural-network-compression,https://github.com/ofsoundof/group_sparsity,30
+115,Dynamic Convolutions: Exploiting Spatial Sparsity for Faster Inference,Thomas Verelst,image-classification,pose-estimation,,https://github.com/thomasverelst/dynconv,22
+116,Benchmarking Adversarial Robustness on Image Classification,Yinpeng Dong,image-classification,person-re-identification,image-classification,https://github.com/thu-ml/realsafe,16
+117,Making Better Mistakes: Leveraging Class Hierarchies With Deep Networks,Luca Bertinetto,image-classification,,,https://github.com/fiveai/making-better-mistakes,16
+118,Towards Large Yet Imperceptible Adversarial Image Perturbations With Perceptual Color Distance,Zhengyu Zhao,image-classification,,,https://github.com/ZhengyuZhao/PerC-Adversarial,14
+119,Adaptive Subspaces for Few-Shot Learning,Christian Simon,few-shot-image-classification,few-shot-learning,meta-learning,https://github.com/chrysts/dsn_fewshot,10
+120,Controllable Orthogonalization in Training DNNs,Lei Huang,image-classification,,,https://github.com/huangleiBuaa/ONI,8
+121,Network Adjustment: Channel Search Guided by FLOPs Utilization Ratio,Zhengsu Chen,image-classification,network-pruning,,https://github.com/danczs/NetworkAdjustment,7
+122,SOS: Selective Objective Switch for Rapid Immunofluorescence Whole Slide Image Classification,Sam Maksoud,image-classification,,,https://github.com/cradleai/LKS-Dataset,4
+123,Attentive Weights Generation for Few Shot Learning via Information Maximization,Yiluan Guo,few-shot-image-classification,few-shot-learning,image-classification,https://github.com/Yiluan/AWGIM,0
+124,Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations,Jeet Mohapatra,image-classification,,,https://github.com/JeetMo/Semantify-NN,0
+125,Self-Training With Noisy Student Improves ImageNet Classification,Qizhe Xie,data-augmentation,image-classification,,https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet,3582
+126,ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks,Qilong Wang,dimensionality-reduction,image-classification,instance-segmentation,https://github.com/BangguWu/ECANet,228
+127,Hyperbolic Image Embeddings,Valentin Khrulkov,zero-shot-learning,image-classification,image-retrieval,https://github.com/KhrulkovV/hyperbolic-image-embeddings,153
+128,Regularizing Class-Wise Predictions via Self-Knowledge Distillation,Sukmin Yun,calibration,image-classification,,https://github.com/alinlab/cs-kd,23
+129,Rotation Equivariant Graph Convolutional Network for Spherical Image Classification,Qin Yang,graph-construction,image-classification,,https://github.com/QinYang12/SGCN,5
+130,DeepEMD: Few-Shot Image Classification With Differentiable Earth Mover's Distance and Structured Classifiers,Chi Zhang,few-shot-learning,meta-learning,image-classification,https://github.com/icoz69/DeepEMD,71
+131,Analyzing and Improving the Image Quality of StyleGAN,Tero Karras,image-generation,,,https://github.com/NVlabs/stylegan2,4713
+132,StarGAN v2: Diverse Image Synthesis for Multiple Domains,Yunjey Choi,image-generation,image-to-image-translation,,https://github.com/clovaai/stargan-v2,1406
+133,GAN Compression: Efficient Architectures for Interactive Conditional GANs,Muyang Li,image-generation,architecture-search,,https://github.com/mit-han-lab/gan-compression,551
+134,MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks,Animesh Karnewar,image-generation,,,https://github.com/akanimax/BMSG-GAN,454
+135,MixNMatch: Multifactor Disentanglement and Encoding for Conditional Image Generation,Yuheng Li,conditional-image-generation,image-generation,,https://github.com/Yuheng-Li/MixNMatch,424
+136,SEAN: Image Synthesis With Semantic Region-Adaptive Normalization,Peihao Zhu,image-generation,,,https://github.com/ZPdesu/SEAN,193
+137,Semantically Multi-Modal Image Synthesis,Zhen Zhu,image-generation,,,https://github.com/Seanseattle/SMIS,191
+138,UnrealText: Synthesizing Realistic Scene Text Images From the Unreal World,Shangbang Long,image-generation,scene-text,scene-text-detection,https://github.com/Jyouhou/UnrealText,103
+139,Your Local GAN: Designing Two Dimensional Local Attention Mechanisms for Generative Models,Giannis Daras,conditional-image-generation,deep-attention,image-generation,https://github.com/giannisdaras/ylg,77
+140,Disentangled Image Generation Through Structured Noise Injection,Yazeed Alharbi,image-generation,,,https://github.com/yalharbi/StructuredNoiseInjection,73
+141,Editing in Style: Uncovering the Local Semantics of GANs,Edo Collins,image-generation,,,https://github.com/IVRL/GANLocalEditing,58
+142,BachGAN: High-Resolution Image Synthesis From Salient Object Layout,Yandong Li,image-generation,,,https://github.com/Cold-Winter/BachGAN,40
+143,A Disentangling Invertible Interpretation Network for Explaining Latent Representations,Patrick Esser,image-generation,,,https://github.com/CompVis/iin,33
+144,Bodies at Rest: 3D Human Pose and Shape Estimation From a Pressure Image Using Synthetic Data,Henry M. Clever,image-generation,,,https://github.com/Healthcare-Robotics/bodies-at-rest,29
+145,AdversarialNAS: Adversarial Neural Architecture Search for GANs,Chen Gao,image-generation,architecture-search,,https://github.com/chengaopro/AdversarialNAS,16
+146,Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification,Seokeon Choi,image-generation,person-re-identification,,https://github.com/bismex/HiCMD,15
+147,Semantic Image Manipulation Using Scene Graphs,Helisa Dhamo,image-generation,layout-to-image-generation,,https://github.com/he-dhamo/simsg,9
+148,A Characteristic Function Approach to Deep Implicit Generative Modeling,Abdul Fatir Ansari,image-generation,,,https://github.com/crslab/OCFGAN,7
+149,SketchyCOCO: Image Generation From Freehand Scene Sketches,Chengying Gao,image-generation,,,https://github.com/sysu-imsl/EdgeGAN,2
+150,Interpreting the Latent Space of GANs for Semantic Face Editing,Yujun Shen,face-generation,image-generation,,https://github.com/ShenYujun/InterFaceGAN,518
+151,CNN-Generated Images Are Surprisingly Easy to Spot... for Now,Sheng-Yu Wang,data-augmentation,image-generation,super-resolution,https://github.com/PeterWang512/CNNDetection,444
+152,Disentangled and Controllable Face Image Generation via 3D Imitative-Contrastive Learning,Yu Deng,contrastive-learning,image-generation,,https://github.com/microsoft/DisentangledFaceGAN,141
+153,A Neural Rendering Framework for Free-Viewpoint Relighting,Zhang Chen,3d-reconstruction,image-generation,,https://github.com/LansburyCH/relightable-nr,27
+154,Normalizing Flows With Multi-Scale Autoregressive Priors,Apratim Bhattacharyya,density-estimation,image-generation,,https://github.com/visinf/mar-scf,8
+155,A Morphable Face Albedo Model,William A. P. Smith,3d-reconstruction,face-alignment,image-generation,https://github.com/waps101/AlbedoMM,46
+156,OccuSeg: Occupancy-Aware 3D Instance Segmentation,Lei Han,3d-instance-segmentation-1,instance-segmentation,multi-task-learning,https://github.com/facebookresearch/SparseConvNet,1137
+157,Deep Snake for Real-Time Instance Segmentation,Sida Peng,instance-segmentation,object-localization,real-time-instance-segmentation,https://github.com/zju3dv/snake,584
+158,PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation,Li Jiang,3d-instance-segmentation-1,instance-segmentation,scene-understanding,https://github.com/Jia-Research-Lab/PointGroup,94
+159,Coherent Reconstruction of Multiple Humans From a Single Image,Wen Jiang,3d-pose-estimation,3d-reconstruction,instance-segmentation,https://github.com/JiangWenPL/multiperson,98
+160,Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution,Xiaoyu Xiang,super-resolution,video-frame-interpolation,video-super-resolution,https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020,268
+161,Deep Unfolding Network for Image Super-Resolution,Kai Zhang,image-super-resolution,super-resolution,,https://github.com/cszn/USRNet,248
+162,Closed-Loop Matters: Dual Regression Networks for Single Image Super-Resolution,Yong Guo,image-super-resolution,super-resolution,,https://github.com/guoyongcs/DRN,177
+163,Structure-Preserving Super Resolution With Gradient Guidance,Cheng Ma,image-super-resolution,super-resolution,,https://github.com/Maclory/SPSR,164
+164,Image Super-Resolution With Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining,Yiqun Mei,image-super-resolution,super-resolution,,https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention,96
+165,Deep Face Super-Resolution With Iterative Collaboration Between Attentive Recovery and Landmark Estimation,Cheng Ma,super-resolution,,,https://github.com/Maclory/Deep-Iterative-Collaboration,94
+166,Correction Filter for Single Image Super-Resolution: Robustifying Off-the-Shelf Deep Super-Resolvers,Shady Abu Hussein,image-super-resolution,super-resolution,,https://github.com/shadyabh/Correction-Filter,20
+167,Video Super-Resolution With Temporal Group Attention,Takashi Isobe,super-resolution,video-super-resolution,,https://github.com/junpan19/VSR_TGA,16
+168,Light Field Spatial Super-Resolution via Deep Combinatorial Geometry Embedding and Structural Consistency Regularization,Jing Jin,super-resolution,,,https://github.com/jingjin25/LFSSR-ATO,12
+169,Unsupervised Adaptation Learning for Hyperspectral Imagery Super-Resolution,Lei Zhang,super-resolution,,,https://github.com/JiangtaoNie/UAL,1
+170,PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models,Sachit Menon,face-hallucination,image-super-resolution,super-resolution,https://github.com/adamian98/pulse,2201
+171,TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution,Yapeng Tian,deblurring,super-resolution,video-super-resolution,https://github.com/YapengTian/TDAN-VSR,134
+172,Learning to Super Resolve Intensity Images From Events,S. Mohammad Mostafavi I.,image-reconstruction,super-resolution,,https://github.com/gistvision/e2sri,3
+173,Deep Global Registration,Christopher Choy,brain-segmentation,image-registration,image-super-resolution,https://github.com/chrischoy/FCGF,195
+174,"Transferable, Controllable, and Inconspicuous Adversarial Attacks on Person Re-identification With Deep Mis-Ranking",Hongjun Wang,person-re-identification,representation-learning,,https://github.com/whj363636/Adversarial-attack-on-Person-ReID-With-Deep-Mis-Ranking,38
+175,Unsupervised Person Re-Identification via Softened Similarity Learning,Yutian Lin,person-re-identification,quantization,unsupervised-person-re-identification,https://github.com/ryanaleksander/softened-similarity-learning,4
+176,Pose-Guided Visible Part Matching for Occluded Person ReID,Shang Gao,graph-matching,person-re-identification,,https://github.com/hh23333/PVPM,39
+177,High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification,Guan'an Wang,graph-matching,person-re-identification,,https://github.com/wangguanan/HOReID,37
+178,Orthogonal Convolutional Neural Networks,Jiayun Wang,speech-recognition,person-re-identification,,https://github.com/samaonline/Orthogonal-Convolutional-Neural-Networks,21
+179,Norm-Aware Embedding for Efficient Person Search,Di Chen,human-detection,person-re-identification,person-search,https://github.com/DeanChan/NAE4PS,16
+180,Circle Loss: A Unified Perspective of Pair Similarity Optimization,Yifan Sun,face-recognition,image-retrieval,person-re-identification,https://github.com/TinyZeaMays/CircleLoss,201
+181,ASLFeat: Learning Local Features of Accurate Shape and Localization,Zixin Luo,face-recognition,image-retrieval,person-re-identification,https://github.com/lzx551402/ASLFeat,83
+182,D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features,Xuyang Bai,face-recognition,image-retrieval,person-re-identification,https://github.com/XuyangBai/D3Feat,78
+183,Weakly Supervised Discriminative Feature Learning With State Information for Person Identification,Hong-Xing Yu,face-recognition,person-identification,person-re-identification,https://github.com/KovenYu/state-information,36
+184,SuperGlue: Learning Feature Matching With Graph Neural Networks,Paul-Edouard Sarlin,domain-adaptation,homography-estimation,interest-point-detection,https://github.com/magicleap/SuperGluePretrainedNetwork,506
+185,Towards Discriminability and Diversity: Batch Nuclear-Norm Maximization Under Label Insufficient Situations,Shuhao Cui,domain-adaptation,,,https://github.com/cuishuhao/BNM,155
+186,Gradually Vanishing Bridge for Adversarial Domain Adaptation,Shuhao Cui,domain-adaptation,unsupervised-domain-adaptation,,https://github.com/cuishuhao/GVB,25
+187,ScrabbleGAN: Semi-Supervised Varying Length Handwritten Text Generation,Sharon Fogel,domain-adaptation,handwriting-recognition,optical-character-recognition,https://github.com/amzn/convolutional-handwriting-gan,10
+188,Spherical Space Domain Adaptation With Robust Pseudo-Label Loss,Xiang Gu,domain-adaptation,,,https://github.com/XJTU-XGU/RSDA,4
+189,Towards Inheritable Models for Open-Set Domain Adaptation,Jogendra Nath Kundu,domain-adaptation,,,https://github.com/val-iisc/inheritune,0
+190,Action Segmentation With Joint Self-Supervised Temporal Domain Adaptation,Min-Hung Chen,action-segmentation,domain-adaptation,,https://github.com/cmhungsteve/SSTDA,73
+191,Unsupervised Model Personalization While Preserving Privacy and Scalability: An Open Problem,Matthias De Lange,continual-learning,domain-adaptation,scene-recognition,https://github.com/mattdl/DUA,6
+192,BBN: Bilateral-Branch Network With Cumulative Learning for Long-Tailed Visual Recognition,Boyan Zhou,representation-learning,,,https://github.com/Megvii-Nanjing/BBN,309
+193,Graph-Structured Referring Expression Reasoning in the Wild,Sibei Yang,representation-learning,,,https://github.com/sibeiyang/sgmn,58
+194,Video Playback Rate Perception for Self-Supervised Spatio-Temporal Representation Learning,Yuan Yao,representation-learning,video-retrieval,,https://github.com/yuanyao366/PRP,8
+195,Adversarial Latent Autoencoders,Stanislav Pidhorskyi,latent-variable-models,representation-learning,style-transfer,https://github.com/podgorskiy/ALAE,2161
+196,Detailed 2D-3D Joint Representation for Human-Object Interaction,Yong-Lu Li,human-object-interaction-detection,representation-learning,,https://github.com/DirtyHarryLYL/DJ-RN,50
+197,HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation,Bowen Cheng,multi-person-pose-estimation,pose-estimation,representation-learning,https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation,482
+198,12-in-1: Multi-Task Vision and Language Representation Learning,Jiasen Lu,image-retrieval,question-answering,representation-learning,https://github.com/jiasenlu/vilbert_beta,282
+199,Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds,Yongming Rao,3d-object-classification,object-classification,representation-learning,https://github.com/raoyongming/PointGLR,48
+200,How Useful Is Self-Supervised Pretraining for Visual Tasks?,Alejandro Newell,imitation-learning,monocular-depth-estimation,representation-learning,https://github.com/princeton-vl/selfstudy,30
+201,DeFeat-Net: General Monocular Depth via Simultaneous Unsupervised Representation Learning,Jaime Spencer,depth-estimation,monocular-depth-estimation,representation-learning,https://github.com/jspenmar/DeFeat-Net,3
+202,Evaluating Weakly Supervised Object Localization Methods Right,Junsuk Choe,few-shot-learning,model-selection,object-localization,https://github.com/clovaai/wsolevaluation,135
+203,DPGN: Distribution Propagation Graph Network for Few-Shot Learning,Ling Yang,few-shot-learning,meta-learning,,https://github.com/megvii-research/DPGN,54
+204,Semi-Supervised Learning for Few-Shot Image-to-Image Translation,Yaxing Wang,few-shot-learning,image-to-image-translation,object-classification,https://github.com/yaxingwang/SEMIT,23
+205,Instance Credibility Inference for Few-Shot Learning,Yikai Wang,data-augmentation,few-shot-learning,meta-learning,https://github.com/Yikai-Wang/ICI-FSL,20
+206,There and Back Again: Revisiting Backpropagation Saliency Methods,Sylvestre-Alvise Rebuffi,meta-learning,,,https://github.com/srebuffi/revisiting_saliency,36
+207,iTAML: An Incremental Task-Agnostic Meta-learning Approach,Jathushan Rajasegaran,meta-learning,,,https://github.com/brjathu/iTAML,36
+208,Scene-Adaptive Video Frame Interpolation via Meta-Learning,Myungsub Choi,meta-learning,video-frame-interpolation,,https://github.com/myungsub/meta-interpolation,14
+209,MetaIQA: Deep Meta-Learning for No-Reference Image Quality Assessment,Hancheng Zhu,image-quality-assessment,meta-learning,no-reference-image-quality-assessment,https://github.com/zhuhancheng/MetaIQA,9
+210,Learn to Augment: Joint Data Augmentation and Network Optimization for Text Recognition,Canjie Luo,data-augmentation,image-augmentation,scene-text,https://github.com/Canjie-Luo/Scene-Text-Image-Transformer,240
+211,Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy,Jaejun Yoo,data-augmentation,denoising,image-restoration,https://github.com/clovaai/cutblur,157
+212,Visual Chirality,Zhiqiu Lin,data-augmentation,image-forensics,self-supervised-learning,https://github.com/linzhiqiu/digital_chirality,4
+213,Lightweight Photometric Stereo for Facial Details Recovery,Xueying Wang,3d-face-reconstruction,data-augmentation,face-reconstruction,https://github.com/Juyong/FacePSNet,69
+214,Symmetry and Group in Attribute-Object Compositions,Yong-Lu Li,compositional-zero-shot-learning,zero-shot-learning,,https://github.com/DirtyHarryLYL/SymNet,20
+215,Domain-Aware Visual Bias Eliminating for Generalized Zero-Shot Learning,Shaobo Min,zero-shot-learning,,,https://github.com/mboboGO/DVBE,12
+216,Hyperbolic Visual Embedding Learning for Zero-Shot Recognition,Shaoteng Liu,zero-shot-learning,,,https://github.com/ShaoTengLiu/Hyperbolic_ZSL,10
+217,Rethinking Zero-Shot Video Classification: End-to-End Training for Realistic Applications,Biagio Brattoli,video-classification,zero-shot-learning,,https://github.com/bbrattoli/ZeroShotVideoClassification,59
+218,Learning the Redundancy-Free Features for Generalized Zero-Shot Object Recognition,Zongyan Han,object-recognition,zero-shot-learning,,https://github.com/Hanzy1996/RRF-GZSL,3
+219,Discovering Human Interactions With Novel Objects via Zero-Shot Learning,Suchen Wang,human-object-interaction-detection,region-proposal,zero-shot-learning,https://github.com/scwangdyd/zero_shot_hoi,10
+220,Searching for Actions on the Hyperbole,Teng Long,action-recognition-in-videos,video-retrieval,zero-shot-learning,https://github.com/Tenglon/hyperbolic_action,1
+221,Exploit Clues From Views: Self-Supervised and Regularized Learning for Multiview Object Recognition,Chih-Hui Ho,object-recognition,self-supervised-learning,,https://github.com/chihhuiho/VISPE,5
+222,Putting Visual Object Recognition in Context,Mengmi Zhang,object-recognition,,,https://github.com/kreimanlab/Put-In-Context,0
+223,Unsupervised Learning From Video With Deep Neural Embeddings,Chengxu Zhuang,object-recognition,,,https://github.com/Chrisackerman1/Unsupervised-Learning-from-Video-with-Deep-Neural-Embeddings,0
+224,ContourNet: Taking a Further Step Toward Accurate Arbitrary-Shaped Scene Text Detection,Yuxin Wang,region-proposal,scene-text,scene-text-detection,https://github.com/wangyuxin87/ContourNet,75
+225,Universal Physical Camouflage Attacks on Object Detectors,Lifeng Huang,region-proposal,,,https://github.com/mesunhlf/UPC-tf,7
+226,Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation,Jiazhao Zhang,scene-segmentation,,,https://github.com/jzhzhang/FusionAwareConv,28
+227,FPConv: Learning Local Flattening for Point Convolution,Yiqun Lin,3d-object-classification,object-classification,scene-segmentation,https://github.com/lyqun/FPConv,66
+228,Collaborative Distillation for Ultra-Resolution Universal Style Transfer,Huan Wang,style-transfer,,,https://github.com/mingsun-tse/collaborative-distillation,53
+229,Neural Pose Transfer by Spatially Adaptive Instance Normalization,Jiashun Wang,pose-transfer,style-transfer,,https://github.com/jiashunwang/Neural-Pose-Transfer,73
+230,Diversified Arbitrary Style Transfer via Deep Feature Perturbation,Zhizhong Wang,image-reconstruction,style-transfer,,https://github.com/EndyWon/Deep-Feature-Perturbation,8
+231,Image2StyleGAN++: How to Edit the Embedded Images?,Rameen Abdal,image-inpainting,image-reconstruction,style-transfer,https://github.com/pacifinapacific/StyleGAN_LatentEditor,56
+232,Google Landmarks Dataset v2 - A Large-Scale Benchmark for Instance-Level Recognition and Retrieval,Tobias Weyand,image-retrieval,transfer-learning,,https://github.com/tensorflow/models/tree/master/research/delf,64576
+233,PaStaNet: Toward Human Activity Knowledge Engine,Yong-Lu Li,human-object-interaction-detection,transfer-learning,,https://github.com/DirtyHarryLYL/HAKE,79
+234,Transfer Learning From Synthetic to Real-Noise Denoising With Adaptive Instance Normalization,Yoonsik Kim,denoising,transfer-learning,,https://github.com/terryoo/AINDNet,25
+235,Dreaming to Distill: Data-Free Knowledge Transfer via DeepInversion,Hongxu Yin,continual-learning,network-pruning,transfer-learning,https://github.com/NVlabs/DeepInversion,136
+236,Syn2Real Transfer Learning for Image Deraining Using Gaussian Processes,Rajeev Yasarla,gaussian-processes,rain-removal,transfer-learning,https://github.com/rajeevyasarla/Syn2Real,21
+237,Interactive Two-Stream Decoder for Accurate and Fast Saliency Detection,Huajun Zhou,saliency-detection,,,https://github.com/moothes/ITSD-pytorch,15
+238,Learning Selective Self-Mutual Attention for RGB-D Saliency Detection,Nian Liu,saliency-detection,,,https://github.com/nnizhang/S2MA,4
+239,Adversarial Texture Optimization From RGB-D Scans,Jingwei Huang,texture-synthesis,,,https://github.com/hjwdzh/AdversarialTexture,91
+240,FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation,Shurui Gui,optical-flow-estimation,texture-synthesis,,https://github.com/CM-BF/FeatureFlow,51
+241,Toward a Universal Model for Shape From Texture,Dor Verbin,shape-from-texture,texture-synthesis,,https://github.com/dorverbin/shapefromtexture,3
+242,Momentum Contrast for Unsupervised Visual Representation Learning,Kaiming He,contrastive-learning,object-classification,self-supervised-action-recognition,https://github.com/facebookresearch/moco,1125
+243,Deep Residual Flow for Out of Distribution Detection,Ev Zisselman,out-of-distribution-detection,,,https://github.com/EvZissel/Residual-Flow,12
+244,A Model-Driven Deep Neural Network for Single Image Rain Removal,Hong Wang,dictionary-learning,rain-removal,single-image-deraining,https://github.com/hongwang01/RCDNet,20
+245,Sketchformer: Transformer-Based Representation for Sketched Structure,Leo Sampaio Ferraz Ribeiro,dictionary-learning,image-retrieval,sketch-based-image-retrieval,https://github.com/leosampaio/sketchformer,3
+246,Satellite Image Time Series Classification With Pixel-Set Encoders and Temporal Self-Attention,Vivien Sainte Fare Garnot,time-series,time-series-classification,,https://github.com/VSainteuf/psetae,21
+247,Learning in the Frequency Domain,Kai Xu,multiple-instance-learning,time-series,time-series-classification,https://github.com/calmevtime1990/supp,144
+248,Detecting Attended Visual Targets in Video,Eunji Chong,deep-attention,,,https://github.com/ejcgt/attention-target-detection,42
+249,Learning Meta Face Recognition in Unseen Domains,Jianzhu Guo,domain-generalization,face-anti-spoofing,face-recognition,https://github.com/cleardusk/MFR,79
+250,Single-Side Domain Generalization for Face Anti-Spoofing,Yunpei Jia,domain-generalization,face-anti-spoofing,,https://github.com/taylover-pei/SSDG-CVPR2020,35
+251,DeepLPF: Deep Local Parametric Filters for Image Enhancement,Sean Moran,image-enhancement,,,https://github.com/sjmoran/deep_local_parametric_filters,34
+252,Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,Chunle Guo,face-detection,image-enhancement,low-light-image-enhancement,https://github.com/Li-Chongyi/Zero-DCE,49
+253,A Context-Aware Loss Function for Action Spotting in Soccer Videos,Anthony Cioppa,action-classification,action-detection,action-spotting,https://github.com/cioppaanthony/context-aware-loss,8
+254,Old Is Gold: Redefining the Adversarially Learned One-Class Classifier Training Paradigm,Muhammad Zaigham Zaheer,anomaly-detection,one-class-classifier,,https://github.com/xaggi/OGNet,5
+255,G-TAD: Sub-Graph Localization for Temporal Action Detection,Mengmeng Xu,action-detection,action-recognition,temporal-action-proposal-generation,https://github.com/Frostinassiky/gtad,46
+256,Instance Shadow Detection,Tianyu Wang,shadow-detection,,,https://github.com/stevewongv/InstanceShadowDetection,22
+257,Conditional Gaussian Distribution Learning for Open Set Recognition,Xin Sun,open-set-learning,,,https://github.com/BraveGump/CGDL-for-Open-Set-Recognition,21
+258,Disentangling and Unifying Graph Convolutions for Skeleton-Based Action Recognition,Ziyu Liu,stochastic-optimization,,,https://github.com/kenziyuliu/ms-g3d,98
+259,Single Image Reflection Removal Through Cascaded Refinement,Chao Li,community-detection,,,https://github.com/JHL-HUST/IBCLN,10
+260,A Multi-Hypothesis Approach to Color Constancy,Daniel Hernandez-Juarez,color-constancy,,,https://github.com/huawei-noah/multi_hyp_cc,12
+261,High-Frequency Component Helps Explain the Generalization of Convolutional Neural Networks,Haohan Wang,adversarial-attack,,,https://github.com/HaohanWang/HFC,37
+262,Cooling-Shrinking Attack: Blinding the Tracker With Imperceptible Noises,Bin Yan,adversarial-attack,,,https://github.com/MasterBin-IIAU/CSA,22
+263,ColorFool: Semantic Adversarial Colorization,Ali Shahin Shamsabadi,adversarial-attack,colorization,denoising,https://github.com/smartcameras/ColorFool,4
+264,Defending and Harnessing the Bit-Flip Based Adversarial Weight Attack,Zhezhi He,adversarial-attack,,,https://github.com/elliothe/BFA,4
+265,Exploring Data Aggregation in Policy Learning for Vision-Based Urban Autonomous Driving,Aditya Prakash,imitation-learning,,,https://github.com/autonomousvision/data_aggregation,12
+266,Computing the Testing Error Without a Testing Set,Ciprian A. Corneanu,causal-discovery,model-selection,,https://github.com/cipriancorneanu/dnn-topology,23
+267,Learn2Perturb: An End-to-End Feature Perturbation Learning to Improve Adversarial Robustness,Ahmadreza Jeddi,adversarial-defense,,,https://github.com/Ahmadreza-Jeddi/Learn2Perturb,4
+268,Defending Against Universal Attacks Through Selective Feature Regeneration,Tejas Borkar,adversarial-defense,,,https://github.com/tsborkar/Selective-feature-regeneration,1
+269,Rethinking Differentiable Search for Mixed-Precision Neural Networks,Zhaowei Cai,combinatorial-optimization,,,https://github.com/zhaoweicai/EdMIPS,18
