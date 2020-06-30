@@ -33,7 +33,8 @@ def get_paper_info():
         title = unidecode(paper.find('div', {'id': 'papertitle'}).text.lstrip())
         authors = unidecode(paper.find('i').text).split(',  ')
         abstract = unidecode(paper.find('div', {'id': 'abstract'}).text.strip())
-        info[title.lower()] = {'authors': authors, 'abstract': abstract, 'title': title}
+        filename = link.split(os.sep)[-1].split('.html')[0]
+        info[title.lower()] = {'filename': filename, 'authors': authors, 'abstract': abstract, 'title': title}
     return info
 
 def get_row(row):
@@ -43,7 +44,8 @@ def get_row(row):
         'task 1': row['tasks'][0] if 'stars' in row and row['tasks'][0] is not None else '',
         'task 2': row['tasks'][1] if 'stars' in row and row['tasks'][1] is not None else '',
         'task 3': row['tasks'][2] if 'stars' in row and row['tasks'][2] is not None else '',
-        'title': row['title'],
+        'title': row['title'] if 'title' in row else '',
+        'filename': row['filename'] if 'filename' in row else '',
         }
 
 
@@ -154,7 +156,7 @@ info_result = map(get_row, info.values())
 df = pd.DataFrame(info_result)
 df['score'] = df.apply(get_score, axis=1)
 df = df.sort_values(['score', 'github'], ascending=False)
-df = df[['title', 'author', 'task 1', 'task 2', 'task 3', 'github', 'stars']]
+df = df[['filename', 'title', 'author', 'task 1', 'task 2', 'task 3', 'github', 'stars']]
 df.index = range(1, len(df) + 1)
 outname = os.path.join('info', 'CVPR%s_info.csv' % year)
 print('Saving to ', outname)

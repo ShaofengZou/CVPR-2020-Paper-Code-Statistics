@@ -92,6 +92,35 @@ Count topics of each paper with code
 | 93   | Rethinking Data Augmentation for Image Super-r... | Jaejun Yoo            | data-augmentation  | denoising           | image-restoration        | https://github.com/clovaai/cutblur                | 157   |
 | 511  | ColorFool: Semantic Adversarial Colorization      | Ali Shahin Shamsabadi | adversarial-attack | colorization        | denoising                | https://github.com/smartcameras/ColorFool         | 4     |
 
+### Classify topic
+
+| a                   | b                     | c                       | d                         |
+| ------------------- | --------------------- | ----------------------- | ------------------------- |
+| pose-estimation     | object-detection      | image-retrieval         | traffic-sign-recognition  |
+| 3d-object-detection | semantic-segmentation | image-classification    | robust-speech-recognition |
+| 3d-reconstruction   | image-classification  | optical-flow-estimation | face-clustering           |
+
+List four classes of topic in ```topic_class.xlsx```
+
+Then run ```count_class_topic(topic_class, 'a')``` to get topics in each class:
+
+<img src="info/Topic of class A.png" style="zoom:50%;" />
+
+Collect all information for this topic class: ```get_and_save('a')```. The result save in ```info/A.csv```.
+
+Snapshot of the result:
+
+| filename                                                     | title                                                        | author           | task 1                       | task 2             | task 3                  | github                                                      | stars |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------------------------- | ------------------ | ----------------------- | ----------------------------------------------------------- | ----- |
+| Kocabas_VIBE_Video_Inference_for_Human_Body_Pose_and_Shape_Estimation_CVPR_2020_paper | VIBE: Video Inference for Human Body Pose and Shape Estimation | Muhammed Kocabas | 3d-human-pose-estimation     | 3d-pose-estimation | motion-capture          | https://github.com/mkocabas/VIBE                            | 1230  |
+| Cheng_HigherHRNet_Scale-Aware_Representation_Learning_for_Bottom-Up_Human_Pose_Estimation_CVPR_2020_paper | HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation | Bowen Cheng      | multi-person-pose-estimation | pose-estimation    | representation-learning | https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation | 482   |
+| Song_HybridPose_6D_Object_Pose_Estimation_Under_Hybrid_Representations_CVPR_2020_paper | HybridPose: 6D Object Pose Estimation Under Hybrid Representations | Chen Song        | 6d-pose-estimation           | pose-estimation    |                         | https://github.com/chensong1995/HybridPose                  | 242   |
+| He_PVN3D_A_Deep_Point-Wise_3D_Keypoints_Voting_Network_for_6DoF_CVPR_2020_paper | PVN3D: A Deep Point-Wise 3D Keypoints Voting Network for 6DoF Pose Estimation | Yisheng He       | 6d-pose-estimation-1         | keypoint-detection | pose-estimation         | https://github.com/ethnhe/PVN3D                             | 142   |
+| Jiang_Coherent_Reconstruction_of_Multiple_Humans_From_a_Single_Image_CVPR_2020_paper | Coherent Reconstruction of Multiple Humans From a Single Image | Wen Jiang        | 3d-pose-estimation           | 3d-reconstruction  | instance-segmentation   | https://github.com/JiangWenPL/multiperson                   | 98    |
+| Chen_End-to-End_Learnable_Geometric_Vision_by_Backpropagating_PnP_Optimization_CVPR_2020_paper | End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization | Bo Chen          | 6d-pose-estimation-1         | 6d-pose-estimation |                         | https://github.com/BoChenYS/BPnP                            | 90    |
+
+
+
 
 
 ## TODO
