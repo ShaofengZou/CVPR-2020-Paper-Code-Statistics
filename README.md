@@ -1,9 +1,11 @@
 # CVPR-2020-Paper-Code-Statistics
-Crawl CVPR 2020 paper and code, make statistical visualization of topic and keyword
+Crawl CVPR 2020 paper and code, make statistical visualization of topic and keyword.
 
 
 
 ## Quick Start
+1. Download this project:
+   > git clone https://github.com/ShaofengZou/CVPR-2020-Paper-Code-Statistics.git
 
 1. Download CVPR papers:
 
